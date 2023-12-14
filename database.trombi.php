@@ -1,6 +1,11 @@
 <?php
 
 $equipe = [
+   [
+      'prenom' => 'Gladys',
+      'role' => 'Présidente',
+      'photo' => 'emplacement de l\'image',
+   ],
 	[
      'prenom' => 'Litéya',
      'role' => 'Community Manager',
@@ -36,9 +41,5 @@ $equipe = [
     'photo' => 'emplacement de l\'image',
  ],
 
- [
-    'prenom' => 'Gladys',
-    'role' => 'Présidente',
-    'photo' => 'emplacement de l\'image',
- ],
+ 
 ];
