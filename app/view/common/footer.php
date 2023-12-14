@@ -17,34 +17,19 @@ $footer = [
 ?>
 
 
-
-<?php foreach ($footer as $reseaux) : ?>
-<?php endforeach ?>
-
-
 <footer>
-    <div id="reseaux" class="div-footer">
-        <ul>
-            <li><a href="<?= $footer["footer_left"]["Instagram"] ?>"> <img src="" alt="Logo d'Instagram"></a></li>
-            <li><a href="<?= $footer["footer_left"]["TikTok"] ?>"> <img src="" alt="Logo de TikTok"></a></li>
-            <li><a href="<?= $footer["footer_left"]["Twitter X"] ?>"> <img src="" alt="Logo de Twitter "></a></li>
-        </ul>
-    </div>
-
-
-
-
-    <div id="reseaux2" class="div-footer">
-        <ul>
-            <li><a href="<?= $reseaux["Nous contacter"] ?>">Nous contacter</a></li>
-            <li><a href="<?= $reseaux["Conditions générales de ventes"] ?>">Conditions générales de ventes</a></li>
-            <li><a href="<?= $reseaux["Politique de confidentialité"] ?>">Politique de confidentialité</a></li>
-        </ul>
-    </div>
+    <?php foreach ($footer as $side) : ?>
+        <div id="reseaux" class="div-footer">
+            <ul>
+                <?php foreach ($side as $title => $url) : ?>
+                    <li><a href="<?= $url ?>"> <img src="" alt="Logo"><?= $title ?></a></li>
+                <?php endforeach ?>
+            </ul>
+        </div>
+    <?php endforeach ?>
 </footer>
 
 
 
 </body>
-
 </html>
