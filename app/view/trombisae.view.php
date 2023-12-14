@@ -15,11 +15,10 @@
   
 <?php foreach ($equipe as $membre) : ?>
 
-    <?php  $photo = "Photo" . $membre["prenom"] . "jpg" ?>
 
     <div class= "membre">
         <a href="fiche.html">
-        <p class="images"><img src= "public/images/" <?= $photo ?> ></p>
+        <p class="images"><img src= "<?=$membre['photo']?>" ></p>
         <p class="prenom"><?= $membre["prenom"] ?> </p>
         <p class="role"><?= $membre["role"] ?> </p>
         

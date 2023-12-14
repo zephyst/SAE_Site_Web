@@ -9,7 +9,7 @@ $equipe = [
 	[
      'prenom' => 'Litéya',
      'role' => 'Community Manager',
-     'photo' => "public/PhotosEquipeTrombi/PhotoLiteya.jpg",
+     'photo' => "public/PhotosEquipeTrombi/PhotoLitéya.jpg",
   ],
   [
      'prenom' => 'Linus',
