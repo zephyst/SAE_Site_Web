@@ -5,17 +5,16 @@
     <p><?= $questions['question']?></p>
         <?php foreach ($questions['réponses'] as $name => $rep) :?>
             <?php if ($questions['nom'] == 'Quizz3') :?>
-                <div class="form-group">
                         <div>
                             <input type="checkbox" id='<?= $name ?>' name='<?= $name ?>'/>
                             <label for=<?= $name ?>><?= $rep ?></label>
                         </div>
-                </div>
+
             <?php else :?>
                 <label>
                     <input
                         name="user-recommend"
-                        value=<?= $name ?>
+                        value="<?= $name ?>"
                         type="radio"
                         class="input-radio"
                     />
@@ -25,3 +24,6 @@
             <?php endif?>
         <?php endforeach ?>
     <?php endforeach ?>
+</div>
+<a href="../../../SAE_Site_Web/quiz.reponse.php">Finir le quiz</a>
+
