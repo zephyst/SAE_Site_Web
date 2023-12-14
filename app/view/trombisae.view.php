@@ -12,13 +12,16 @@
 
     <main>
 
-<?php foreach ($trombinoscope as $membre) : ?>
+  
+<?php foreach ($equipe as $membre) : ?>
+
 
     <div class= "membre">
         <a href="fiche.html">
+        <p class="images"><img src= "<?=$membre['photo']?>" ></p>
         <p class="prenom"><?= $membre["prenom"] ?> </p>
         <p class="role"><?= $membre["role"] ?> </p>
-        <p class="images"
+        
 </a>
     </div>
     <?php endforeach ?> 
