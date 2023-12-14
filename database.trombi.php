@@ -4,7 +4,7 @@ $equipe = [
 	[
      'prenom' => 'Litéya',
      'role' => 'Community Manager',
-     'photo' => ,
+     'photo' => "",
   ],
   [
      'prenom' => 'Linus',
