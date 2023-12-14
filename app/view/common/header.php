@@ -19,18 +19,18 @@ $header = [
 
 
   <link rel="stylesheet" type="text/css" href="public/css/stylesheet.css">
-  <?php if ($mpty($css)): ?>
+  <?php if (empty($css)): ?>
     <link rel="stylesheet" href="public/css/<?= $css ?>">
-<?php endif ?>
+  <?php endif ?>
 </head>
 
 <header>
-    <a href="accueil.html"><img src="public/images/<?php $logo ?>"></a>
+    <a href="accueil.html"><img src="public/images/<?= $logo ?>"></a>
     <section>
         <ul>
             <?php foreach($header as $title=>$url): ?>
             <li>
-            <a href="<?php $url ?>"> <?php $title ?> </a>
+            <a href="<?= $url ?>"> <?= $title ?> </a>
             </li>
             <?php endforeach ?>
         </ul>
