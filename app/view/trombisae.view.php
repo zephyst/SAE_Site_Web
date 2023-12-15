@@ -12,6 +12,7 @@
 
     <main>
 
+    <?php include "database.trombi.php" ?>
   
 <?php foreach ($equipe as $membre) : ?>
 

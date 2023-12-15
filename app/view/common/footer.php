@@ -28,15 +28,16 @@ $footer = [
             <ul>
                 <?php foreach ($side as $title => $url) : ?>
                     <li><a href="<?= $url ?>">
-                            <img src="<?php if ($title == "Instagram"):?>public/pictogramme/instagram.svg 
-                     <?php elseif ($title == "TikTok"):?>public/pictogramme/tiktok.svg
-                     <?php elseif ($title == "Twitter X"):?>public/pictogramme/twitter-x.svg 
-                    <?php else : ?>
-                      <?php endif ?>" alt="<?php if ($title == "Instagram"):?>Logo de Instagram
-                     <?php elseif ($title == "TikTok"):?>Logo de TikTok
-                     <?php elseif ($title == "Twitter X"):?>Logo de Twitter
-                    <?php else : ?>
-                      <?php endif ?>"><?= $title ?></a></li>
+                     <img src="<?php if ($title == "Instagram") : ?>public/pictogramme/instagram.svg 
+                     <?php elseif ($title == "TikTok") : ?>public/pictogramme/tiktok.svg
+                     <?php elseif ($title == "Twitter X") : ?>public/pictogramme/twitter-x.svg 
+                     <?php else : ?>
+                     <?php endif ?>"
+                     alt="<?php if ($title == "Instagram") : ?>Logo de Instagram
+                     <?php elseif ($title == "TikTok") : ?>Logo de TikTok
+                     <?php elseif ($title == "Twitter X") : ?>Logo de Twitter
+                     <?php else : ?>
+                     <?php endif ?>"><?= $title ?></a></li>
                 <?php endforeach ?>
             </ul>
         </div>
