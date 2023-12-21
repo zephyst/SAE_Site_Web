@@ -1,5 +1,6 @@
 <?php
 
+$css=null;
 $logo = 'LOGOOFFPOURDEVRAI.png';
 $header = [
     'Nous contacter' => 'contact.php',
