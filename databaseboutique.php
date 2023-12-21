@@ -8,9 +8,9 @@ $boutique = [
     'image' => "emplacement de l'image",
   ],
   [
-  	'nom' => 'T-SHIRT "LES GONZESSES SONT DE SORTIE"',
-    'description' => 'T-shirt ...',
-    'prix' => 20,
+  	'nom' => 'TASSE "LES GONZESSES SONT DE SORTIE"',
+    'description' => 'Tasse',
+    'prix' => 15,
     'image' => "emplacement de l'image", 
   ],
   [
