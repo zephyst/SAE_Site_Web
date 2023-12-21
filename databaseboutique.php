@@ -4,24 +4,35 @@ $boutique = [
   [
   	'nom' => 'SWEAT "LES GONZESSES SONT DE SORTIE"',
     'description' => 'Sweat à capuche floqué avec cordons. 
-    Poche kangourou, 
-    logo "LES GONZESSES SONT DE SORTIE" sur le devant. 
-    Lavable en machine à 40°.',
+    <br>Poche kangourou</br>
+    logo "LES GONZESSES SONT DE SORTIE" sur le devant.
+    <br>Lavable en machine à 40°.</br>',
     'prix' => '30€',
-    'image' => "emplacement de l'image",
+    'image' => "public/images/Sweat.png",
+    'taille'=> ' <select name="TailleTShirt"> 
+    <option value="xs">XS</option>
+    <option value="s">S</option>
+    <option value="M">M</option>
+    <option value="L">L</option>
+    <option value="XL">XL</option>
+</select>', 
   ],
+
   [
-  	'nom' => 'T-SHIRT "LES GONZESSES SONT DE SORTIE"',
-    'description' => 'T-shirt ...',
-    'prix' => 20,
-    'image' => "emplacement de l'image", 
+  	'nom' => 'Mug "LES GONZESSES SONT DE SORTIE"',
+    'description' => 'Mug floqué',
+    'prix' => "15€",
+    'image' => "public/images/Mug.png", 
+    'taille'=> ''
   ],
+
   [
   	'nom' => 'TOTE-BAG "LES GONZESSES SONT DE SORTIE"',
     'description' => 'ToteBag floqué
-    Logo "LES GONZESSES SONT DE SORTIE" sur le devant.
+   <br> Logo "LES GONZESSES SONT DE SORTIE" sur le devant. </br>
     Lavable en machine à 40°.',
     'prix' => '10€',
-    'image' => "emplacement de l'image",
+    'image' => "public/images/Tote_bag.png",
+    'taille'=> " "
   ],
 ];

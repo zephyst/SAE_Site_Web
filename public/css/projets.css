@@ -4,10 +4,33 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: aqua;
+}
+
+body {
+    background-color: #FFFCF1;
+}
+
+h1 {
+    font-family: 'Marianaxxe';
+    padding: 5% 20%;
 }
 
 #video {
     text-align: center;
-    
+}
+
+#gonz {
+    font-family: 'MarianaxxeV4';
+}
+
+#slam {
+    width: 30%;
+    margin-right: 60%;
+    padding-left: 10%;
+}
+
+#lycee {
+    text-align: right;
+    width: 30%;
+    margin-left: 60%;
 }
