@@ -60,8 +60,6 @@ $footer_right = [
             <?php endforeach ?>
         </ul>
     </div>
-
-
 </footer>
 </body>
 </html>

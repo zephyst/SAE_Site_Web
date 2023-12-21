@@ -17,7 +17,7 @@ $header = [
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title><?= $page_title ?></title>
 
-  <link rel="stylesheet" type="text/css" href="public/css/header.css">
+  <link rel="stylesheet" type="text/css" href="public/css/headerFooter.css">
   <?php if (empty($css)): ?>
     <link rel="stylesheet" href="public/css/<?= $css ?>">
   <?php endif ?>
