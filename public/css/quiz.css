@@ -1,5 +1,56 @@
+@import url("public/font/MarianaxxeV4.ttf");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 main {
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    align-items: center;
+}
+
+h1  {
+    font-family: Marianaxxe;
+    font-weight: normal;
+    font-size: 3rem;
+}
+
+p, label {
+    font-family:Poppins, sans-serif ;
+}
+
+.form-group p {
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 7px 0;
+}
+
+.reponse{
+    padding-left:2vw ;
+}
+
+.finir {
+    margin-top: -9vh;
+    padding: 2vh 2vw;
+    background-color: burlywood;
+    border-radius: 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    background-color:#f2f2f2;
+    background-size: cover;
+    padding: 0 3vw;
+}
+.topper {
+    background-image: url("../images/quizFondUp.png");
+    background-size: cover;
+    height: 178px;
+}
+.downer{
+    background-image: url("../images/quizFondDown.png");
+    background-size: cover;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
 }

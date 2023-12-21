@@ -6,6 +6,10 @@
     color: black;
 }
 
+body {
+    background-color: #FFFCF1;
+}
+
 a {
     text-decoration: none;
     font-family: Poppins,sans-serif;
