@@ -4,41 +4,41 @@ $equipe = [
    [
       'prenom' => 'Gladys',
       'role' => 'Présidente',
-      'photo' => 'public/PhotosEquipeTrombi/PhotoGladys.jpg',
+      'photo' => 'public/images/PhotoGladys.jpg',
    ],
 	[
      'prenom' => 'Litéya',
      'role' => 'Community Manager',
-     'photo' => "public/PhotosEquipeTrombi/PhotoLitéya.jpg",
+     'photo' => "public/images/PhotoLitéya.jpg",
   ],
   [
      'prenom' => 'Linus',
      'role' => 'Développeur',
-     'photo' => 'public/PhotosEquipeTrombi/PhotoLinus.jpeg',
+     'photo' => 'public/images/PhotoLinus.jpeg',
   ],
 
   [
     'prenom' => 'Mariana',
     'role' => 'Graphiste',
-    'photo' => 'public/PhotosEquipeTrombi/PhotoMariana.jpg',
+    'photo' => 'public/images/PhotoMariana.jpg',
  ],
 
  [
     'prenom' => 'Sarah',
     'role' => 'Trésorière',
-    'photo' => 'public/PhotosEquipeTrombi/PhotoSarah.jpg',
+    'photo' => 'public/images/PhotoSarah.jpg',
  ],
 
  [
     'prenom' => 'Léa',
     'role' => 'Créatrice de merch',
-    'photo' => 'public/PhotosEquipeTrombi/PhotoLea.jpg',
+    'photo' => 'public/images/PhotoLea.jpg',
  ],
 
  [
     'prenom' => 'Alexandre',
     'role' => 'Développeur',
-    'photo' => 'public/PhotosEquipeTrombi/PhotoAlexandre.jpg',
+    'photo' => 'public/images/PhotoAlexandre.jpg',
  ],
 
  

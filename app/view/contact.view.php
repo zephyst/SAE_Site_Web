@@ -9,7 +9,7 @@
                   <option value="jeunesse">service jeunesse</option>
                   <option value="other">autres</option>
                 </select>
-              </div>
+            </div>
     
             <div class="commentaire">
                 <p>Votre demande :</p>
@@ -30,48 +30,15 @@
                   placeholder="Insérer votre mail..."
                 ></textarea>
               </div>
-        </section>
+</section>
 
-        <section id="contact"> 
-            <h1>BESOIN DE NOUS CONTACTER ? </h1>
-            <h2 class="soustitre">NOUS ECRIRE</h2>
-            <p class="description">Merci de nous écrire que par ce moyen de communication.</p>
-            <p class="information">par mail : contact@ehconnard.org </p>
-    
-            <h2 class="soustitre">NOUS APPELER</h2>
-            <p class="description"> Appelez nous si vous voulez une intervention, une idée de projet…</p>
-            <p class="information"> numéro de téléphone : 06 xx xx xx 76</p>
-    
-            <h2 class="soustitre">NOUS TROUVER</h2>
-            <p class="description"> Voici où vous pouvez nous trouver.</p>
-            <p class="information"> adresse postale : 240 rue de la motte, Moissy-Cramayel 77550 France</p>
-    
-            <h2 class="soustitre">NOS RÉSEAUX SOCIAUX   </h2>
-            <p class="description"> Pour plus de fun, suivez nous sur nos réseaux</p>
-            <p class="information"> Instagram : <a href="https://www.instagram.com/eh_connard/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==">@ehconnard</a> <br> Twitter X : <a href="https://x.com/eh_connard?s=20">@eh_connard</a> <br> TikTok : <a href="https://www.tiktok.com/@eh_connard?is_from_webapp=1&sender_device=pc">@ehconnard</a> </p>
-    
-        </section>
+  <section class="contact">
+  <h1>BESOIN DE NOUS CONTACTER ? </h1>
 
-        <?php 
-        $contacts = [
-           1 => [
-              'intitulé' => 'NOUS ECRIRE',
-              'message' => 'Merci de nous écrire que par ce moyen de communication.',
-              'adresse1' => 'par mail : contact@ehconnard.org',
-           ],
+<?php foreach ($contacts as $methode) : ?>
+<p class="intitulé"> <?= $methode["intitulé"] ?> </p>
+<p class="message"> <?= $methode["message"] ?></p>
+<p class="groupe"> <?= $methode["adresse"] ?> </p>
+</section>
 
-           2 => [
-            'intitulé' => 'NOUS APPELER',
-              'message' => 'Appelez nous si vous voulez une intervention, une idée de projet…',
-              'adresse1' => 'numéro de téléphone : 06 xx xx xx 76',
-           ],
-
-          3 => [
-            'intitulé' => 'NOS RÉSEAUX SOCIAUX',
-            'message' => 'Pour plus de fun, suivez nous sur nos réseaux',
-            'adresse1' => 'Instagram :' ,
-            'adresse2' => 'Twitter X : ' , 
-            'adresse3' => 'TikTok : ',
-           ]
-           
-         ];
+<?php endforeach ?> 
