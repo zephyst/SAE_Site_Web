@@ -1,6 +1,5 @@
 <?php
 
-$css=null;
 $logo = 'LOGOOFFPOURDEVRAI.png';
 $header = [
     'Nous contacter' => 'contact.php',
@@ -18,13 +17,13 @@ $header = [
   <title><?= $page_title ?></title>
 
   <link rel="stylesheet" type="text/css" href="public/css/headerFooter.css">
-  <?php if (empty($css)): ?>
-    <link rel="stylesheet" href="public/css/<?= $css ?>">
+  <?php if (!empty($css)): ?>
+    <link rel="stylesheet" href="<?=$css?>">
   <?php endif ?>
 </head>
 
 <header>
-    <a href="accueil.html"><img src="public/images/<?= $logo ?>"></a>
+    <a href="quiz.php"><img src="public/images/<?= $logo ?>"></a>
         <ul>
             <?php foreach($header as $title=>$url): ?>
             <li>
