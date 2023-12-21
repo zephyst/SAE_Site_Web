@@ -32,7 +32,7 @@ $equipe = [
  [
     'prenom' => 'Léa',
     'role' => 'Créatrice de merch',
-    'photo' => 'public/PhotosEquipeTrombi/PhotoLea.jpg',
+    'photo' => 'public/PhotosEquipeTrombi/PhotoLéa.jpg',
  ],
 
  [

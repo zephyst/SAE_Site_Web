@@ -22,7 +22,6 @@
         <p class="images"><img src= "<?=$membre['photo']?>" ></p>
         <p class="prenom"><?= $membre["prenom"] ?> </p>
         <p class="role"><?= $membre["role"] ?> </p>
-        
 </a>
     </div>
     <?php endforeach ?> 

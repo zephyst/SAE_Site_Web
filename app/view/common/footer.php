@@ -43,14 +43,5 @@ $footer = [
         </div>
     <?php endforeach ?>
 </footer>
-
-
-
-
-
-
-
-
 </body>
-
 </html>
