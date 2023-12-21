@@ -1,6 +1,6 @@
 <?php
 include "databaseQuiz.php";
-$css=null;
+$css="boutique.css";
 $page_title = 'Accueil/Quiz';
 
 ob_start();
