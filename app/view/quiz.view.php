@@ -1,6 +1,6 @@
 <h1>Quel type de personne es-tu dans la rue ?</h1>
 
-<?php include "databaseQuiz.php" ?>
+
 
 <div class="form-group">
     <?php foreach ($questionnaire as $questions) :?>

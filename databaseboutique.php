@@ -11,10 +11,9 @@ $boutique = [
     'image' => "emplacement de l'image",
   ],
   [
-  	'nom' => 'TASSE "LES GONZESSES SONT DE SORTIE"',
-    'description' => 'Tasse floqué. 
-    Logo "LES GONZESSES SONT DE SORTIE."',
-    'prix' => '15€',
+  	'nom' => 'T-SHIRT "LES GONZESSES SONT DE SORTIE"',
+    'description' => 'T-shirt ...',
+    'prix' => 20,
     'image' => "emplacement de l'image", 
   ],
   [
