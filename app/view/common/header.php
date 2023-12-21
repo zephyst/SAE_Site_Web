@@ -32,3 +32,4 @@ $header = [
             <?php endforeach ?>
         </ul>
 </header>
+<main>

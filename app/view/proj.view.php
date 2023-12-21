@@ -11,18 +11,7 @@
 <link rel="stylesheet" href="trrr.css">
 
 <body>
-    <header>
-        <a href="accueil.html"><img src="LOGOOFFPOURDEVRAI.png"></a>
-        <section>
-            <ul>
-                <li><a href="">Qui sommes nous ?</a></li>
-                <li><a href="">Nos projets</a></li>
-                <li><a href="">Boutique</a></li>
-                <li><a href="">Nous contacter</a></li>
-            </ul>
-        </section>
-    </header>
-
+    
     <main>
         <h1>Nos projets : </h1>
         <ul>
@@ -53,26 +42,5 @@
     </main>
 
 </body>
-
-<footer>
-    <div id="reseaux" class="div-footer">
-        <ul>
-            <li><a href="https://www.instagram.com/eh_connard/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"> <img
-                        src="pictogramme/instagram.svg">Instagram</a></li>
-            <li><a href="https://www.tiktok.com/@eh_connard?_t=8hva9LT0cTI&_r=1"> <img
-                        src="pictogramme/tiktok.svg">Tiktok</a></li>
-            <li><a href="https://x.com/eh_connard?s=21&t=gI8Bnbzdov4wuAo_5X6Yng"> <img
-                        src="pictogramme/twitter-x.svg">Twitter X</a></li>
-        </ul>
-    </div>
-
-    <div id="reseaux2" class="div-footer">
-        <ul>
-            <li><a href="">Nous contacter</a></li>
-            <li><a href="">Conditions générales de ventes</a></li>
-            <li><a href="">Politique de confidentialité</a></li>
-        </ul>
-    </div>
-</footer>
 
 </html>
