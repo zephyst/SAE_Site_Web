@@ -1,16 +1,3 @@
-<!--
-<?php
-
-// Données : balise title + éventuellement CSS 
-include 'database.php';
-$page_title = 'Projets';
-
-// A la place du code html, mettre le code qui permet de générer la page HTML (à partir du ob_start()).
-ob_start();
-include 'app/view/proj_view.php';
-
-?>
--->
 <!DOCTYPE html>
 
 <html lang="fr">
@@ -55,9 +42,7 @@ include 'app/view/proj_view.php';
                 <p>La miss, la poupée, la jolie fille, la demoiselle, bref : </p>
                 <p><strong>LES GONZESSES SONT DE SORTIES !!!</strong></p>
             </li>
-            <li>Visiter des lycées de France pour sensibiliser les jeunes au harcèlement de rue, répondre à leurs
-                questions,
-                etc…
+            <li>Visiter des lycées de France pour sensibiliser les jeunes au harcèlement de rue, répondre à leurs questions, etc…
                 <p>Eduquer c’est la meilleure façon de faire bouger les choses, apprendre aux jeunes que certains
                     comportements interiorisés ou banalisés, devraient être condamnés.
                     C’est pour ça que nous, les gonzesses, avons fait le choix de revêtir nos uniformes d’éducatrices
