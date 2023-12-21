@@ -42,9 +42,9 @@ $footer_right = [
 
 
 ?>
-
+</main>
 <footer>
-    <div class="footer-left">
+    <div class="footer-left" id="div1">
         <ul>
             <?php foreach ($footer_left as $reseaux) : ?>
                 <li><a href="<?= $reseaux["href"] ?>"> <img src="<?= $reseaux["chemin"] ?>" alt="<?= $reseaux["alt"] ?>"><?= $reseaux["titre"] ?></a></li>
@@ -53,7 +53,7 @@ $footer_right = [
     </div>
 
 
-    <div class="footer-right">
+    <div class="footer-right" id="div2">
         <ul>
             <?php foreach ($footer_right as $contact) : ?>
                 <li><a href="<?= $contact["href"] ?>"> <?= $contact["titre"] ?></a></li>

@@ -37,3 +37,4 @@ $header = [
         </ul>
     </section>
 </header>
+<main>
