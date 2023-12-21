@@ -6,17 +6,19 @@ $equipe = [
       'role' => 'Présidente',
       'photo' => 'public/images/PhotoGladys.jpg',
    ],
-   [
-      'prenom' => 'Sarah',
-      'role' => 'Trésorière',
-      'photo' => 'public/images/PhotoSarah.jpg',
-   ],
 
    [
       'prenom' => 'Litéya',
       'role' => 'Community Manager',
       'photo' => "public/images/PhotoLitéya.jpg",
    ],
+
+   [
+      'prenom' => 'Sarah',
+      'role' => 'Trésorière',
+      'photo' => 'public/images/PhotoSarah.jpg',
+   ],
+
    [
       'prenom' => 'Linus',
       'role' => 'Développeur',
@@ -29,7 +31,6 @@ $equipe = [
       'photo' => 'public/images/PhotoMariana.jpg',
    ],
 
-
    [
       'prenom' => 'Léa',
       'role' => 'Créatrice de merch',
@@ -41,6 +42,5 @@ $equipe = [
       'role' => 'Développeur',
       'photo' => 'public/images/PhotoAlexandre.jpg',
    ],
-
 
 ];
