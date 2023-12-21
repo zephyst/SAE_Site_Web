@@ -1,5 +1,12 @@
-@import url("public/font/MarianaxxeV4.ttf");
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+    font-family: Marianaxxe;
+    src: url('../font/MarianaxxeV4.ttf');
+}
+@font-face {
+    font-family: Poppins;
+    src: url("../font/Poppins-Regular.ttf");
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -7,6 +14,7 @@ main {
 }
 
 h1  {
+    margin-top: 6vh;
     font-family: Marianaxxe;
     font-weight: normal;
     font-size: 3rem;
@@ -43,7 +51,7 @@ p, label {
 .topper {
     background-image: url("../images/quizFondUp.png");
     background-size: cover;
-    height: 178px;
+    height: 133px;
 }
 .downer{
     background-image: url("../images/quizFondDown.png");
@@ -53,4 +61,52 @@ p, label {
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+}
+
+#scotch {
+    height: 5vh;
+    width: 12vw;
+    background-color: rgba(222, 184, 135, 0.7);
+    position: absolute;
+    top: 27vh;
+    right: 18vw;
+    transform: rotate(35deg);
+    z-index: 1;
+}
+
+input {
+    appearance: none;
+    background-color: #FFFCF1;
+
+    font: inherit;
+    color: burlywood;
+    height: 1em;
+    width: 1em;
+    border: 0.15em solid burlywood;
+
+    display: grid;
+    place-content: center;
+}
+
+input::before {
+    content:"";
+    width: 0.65em;
+    height: 0.65em;
+    transform: scale(0);
+    background-color: burlywood;
+    transition: 120ms transform ease-in-out;
+}
+
+input:checked::before {
+    transform: scale(1);
+}
+
+.reponse {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+#form {
+    width: 55vw;
 }

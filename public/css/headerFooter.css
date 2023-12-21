@@ -1,5 +1,12 @@
-@import url("public/font/MarianaxxeV4.ttf");
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+    font-family: Marianaxxe;
+    src: url('../font/MarianaxxeV4.ttf');
+}
+@font-face {
+    font-family: Poppins;
+    src: url("../font/Poppins-Regular.ttf");
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -23,10 +30,12 @@ header {
 
     position: sticky;
     top: 0;
+    z-index: 2;
 }
 
 header img {
     height: 80px;
+    margin-left: 8vw;
 }
 
 header ul {
@@ -39,7 +48,7 @@ header ul {
 }
 
 header li {
-    padding-right: 5%;
+    margin-right: 8vw;
 }
 
 header a {
