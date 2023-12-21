@@ -65,6 +65,6 @@
         <p class= "nom" >
         <p class="prix">
         <p class= "description">
-        <p class= "images" >
-   
+        <p class= "images" >  
 </div>
+<?php endforeach ?>
