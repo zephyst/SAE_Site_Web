@@ -6,7 +6,7 @@ $header = [
     'Nous contacter' => 'contact.php',
     'Boutique' => 'boutique.php',
     'Nos projets' => 'projets.php',
-    'Qui sommes nous ?' => 'trombi.php',
+    'Qui sommes nous ?' => 'trombisae.php',
 ];
 
 ?>
@@ -17,9 +17,7 @@ $header = [
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title><?= $page_title ?></title>
 
-
-
-  <link rel="stylesheet" type="text/css" href="public/css/stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="public/css/headerFooter.css">
   <?php if (empty($css)): ?>
     <link rel="stylesheet" href="public/css/<?= $css ?>">
   <?php endif ?>
@@ -27,7 +25,6 @@ $header = [
 
 <header>
     <a href="accueil.html"><img src="public/images/<?= $logo ?>"></a>
-    <section>
         <ul>
             <?php foreach($header as $title=>$url): ?>
             <li>
@@ -35,6 +32,5 @@ $header = [
             </li>
             <?php endforeach ?>
         </ul>
-    </section>
 </header>
 <main>
