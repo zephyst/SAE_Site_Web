@@ -2,7 +2,6 @@
     <h1>Quel type de personne es-tu dans la rue ?</h1>
 
     <div id="form">
-        <div id="scotch"></div>
         <div class="topper"></div>
         <div class="form-group">
             <?php foreach ($questionnaire as $nom => $questions) :?>

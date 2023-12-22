@@ -62,17 +62,6 @@ p, label {
     align-items: flex-start;
 }
 
-#scotch {
-    height: 5vh;
-    width: 12vw;
-    background-color: rgba(222, 184, 135, 0.7);
-    position: absolute;
-    top: 27vh;
-    right: 18vw;
-    transform: rotate(35deg);
-    z-index: 1;
-}
-
 input {
     appearance: none;
     background-color: #FFFCF1;
@@ -92,7 +81,7 @@ input::before {
     width: 0.65em;
     height: 0.65em;
     transform: scale(0);
-    background-color: burlywood;
+    box-shadow: inset 1em 1em burlywood;
     transition: 120ms transform ease-in-out;
 }
 

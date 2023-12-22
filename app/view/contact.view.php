@@ -1,8 +1,10 @@
 <section class="formulaire">
     <h2>Vous voulez qu'on intervienne pour sensibiliser sur le harcèlement de rue ? <br>
         Utilisez notre formulaire ci-dessous ! </h2>
+
     <form name="comment">
-        <div class="statut">
+        <div class="topper"></div>
+        <div class="question">
             <p>Quel est votre statut</p>
             <?php foreach ($statut as $rep) :?>
                 <label class="reponse">
@@ -22,13 +24,13 @@
                 <br>
             </label>
         </div>
-        <div class="commentaire">
+        <div class="question">
             <p>Votre demande :</p>
             <textarea
                     id="comments"
                     class="input-textarea"
                     name="comment"
-                    placeholder="Veuillez taper votre commentaire ... (250 caractères max)"
+                    placeholder="Veuillez taper votre commentaire (250 caractères max)"
                     maxlength="250"
                     wrap="hard"
                     cols="50"
@@ -36,7 +38,7 @@
             ></textarea>
         </div>
 
-        <div class="mail">
+        <div class="question">
             <p>Votre mail : </p>
             <textarea
                     id="comments"
@@ -48,12 +50,10 @@
             ></textarea>
         </div>
         <div id="envoyer">
-            <button type="submit" class="submit" form="comment">Envoyer</button>
+            <a class="submit" form="comment" href="">Envoyer</a>
         </div>
-
+        <div class="downer"></div>
     </form>
-
-
 
 </section>
 

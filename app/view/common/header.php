@@ -5,7 +5,7 @@ $header = [
     'Nous contacter' => 'contact.php',
     'Boutique' => 'boutique.php',
     'Nos projets' => 'projets.php',
-    'Qui sommes nous ?' => 'trombisae.php',
+    'Qui sommes nous ?' => 'trombi.php',
 ];
 
 ?>

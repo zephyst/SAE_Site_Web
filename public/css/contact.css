@@ -72,8 +72,7 @@ input[type="radio"] {
     color: burlywood;
     height: 1em;
     width: 1em;
-    border: 0.1em solid burlywood;
-    border-radius: 50%;
+    border: 0.15em solid burlywood;
 
     display: grid;
     place-content: center;
@@ -86,7 +85,6 @@ input[type="radio"]::before {
     transform: scale(0);
     background-color: burlywood;
     transition: 120ms transform ease-in-out;
-    border-radius: 50%;
 }
 
 input[type="radio"]:checked::before {
@@ -102,7 +100,7 @@ input[type="radio"]:checked::before {
 input[type="text"] {
     border: none;
     border-bottom: black solid 1px;
-    background-color: #FFFCF1;
+    background-color: #fff;
     font-family: Poppins;
     padding: 2px 5px;
 }
@@ -134,4 +132,24 @@ input[type="text"] {
 
 .submit:hover{
     cursor: pointer;
+}
+
+.topper {
+    background-image: url("../images/quizFondUp.png");
+    background-size: cover;
+    height: 5vh;
+}
+.downer {
+    background-image: url("../images/quizFondDown.png");
+    background-size: cover;
+    height: 7vh;
+}
+
+.container {
+    padding: 0 3vw;
+}
+
+.question , #envoyer {
+    padding: 1vh 3vw;
+    background-color: #f2f2f2;
 }
