@@ -6,3 +6,31 @@
     font-family: Poppins;
     src: url("../font/Poppins-Regular.ttf");
 }
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+main{
+    font-family:"Poppins";
+}
+main img{
+    position: relative;
+    left:20%;
+    top:-135px;
+    border:1px solid black;
+    height:400px;
+    width:400px;
+    padding:20px;
+}
+.article{
+    text-align: right;
+    position: relative;
+    right: 25%;
+    top: 150px;
+}
+.prix{
+    position: relative;
+    right:275px;
+}
