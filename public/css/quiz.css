@@ -35,7 +35,6 @@ p, label {
 }
 
 .finir {
-    margin-top: -9vh;
     padding: 2vh 2vw;
     background-color: burlywood;
     border-radius: 10px;
@@ -60,7 +59,7 @@ p, label {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
 }
 
 #scotch {

@@ -18,7 +18,7 @@
                         <?php else :?>
                             <label class="reponse">
                                 <input
-                                        name="user-recommend"
+                                        name="<?= $questions['nom'] ?>"
                                         value="<?= $name ?>"
                                         type="radio"
                                         class="input-radio"
@@ -30,7 +30,6 @@
                     <?php endforeach ?>
                 </div>
             <?php endforeach ?>
-
         </div>
         <div class="downer">
             <a class="finir" href="../../../SAE_Site_Web/quiz.reponse.php">Finir le quiz</a>
