@@ -2,6 +2,7 @@
     font-family: Marianaxxe;
     src: url('../font/MarianaxxeV4.ttf');
 }
+
 @font-face {
     font-family: Poppins;
     src: url("../font/Poppins-Regular.ttf");
@@ -13,8 +14,59 @@ main {
     align-items: center;
 }
 
-h1  {
+h1 {
     margin-top: 6vh;
     font-family: Marianaxxe;
     font-size: 4rem;
+}
+
+#presentation {
+    background-image: url(../images/Feuille\ longue\ scotch\ haut.png);
+    font-family: Poppins;
+    width: 50%;
+    height: 30vh;
+    padding: 15px 0 0 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-family: Marianaxxe;
+    font-size: 3.5rem;
+    font-weight: lighter;
+}
+
+.membre {
+    background-image: url(../images/LOGOOFFPOURDEVRAI.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 165px;
+}
+
+.role {
+    font-weight: lighter;
+}
+
+.prenom {
+    font-weight: bolder;
+
+}
+
+.prenom {
+    font-size: 1.225em;
+}
+
+.membre img{
+    width: 135px;
+    object-fit: cover;
+    height: 105px;
+    position: relative;
+    left: 33px;
+    top: 30px;
 }
