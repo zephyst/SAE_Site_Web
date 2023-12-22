@@ -55,18 +55,62 @@ h2 {
 
 .prenom {
     font-weight: bolder;
+    font-size: 1.666em;
+    padding-top: 40px;
 
 }
 
-.prenom {
-    font-size: 1.225em;
+.prenom,
+.role {
+    text-align: center;
+    margin-top: 10px;
 }
 
-.membre img{
-    width: 135px;
+.membre img {
+    width: 155px;
     object-fit: cover;
-    height: 105px;
+    height: 110px;
     position: relative;
-    left: 33px;
-    top: 30px;
+    left: 25px;
+    top: 27px;
+}
+
+.membre:first-of-type {
+    position: relative;
+    top: 400px;
+}
+
+
+.membre:nth-of-type(2) {
+    position: relative;
+    bottom: 160px;
+}
+
+.membre:nth-of-type(3) {
+    position: relative;
+    bottom: 200px;
+    left: 450px;
+}
+
+.membre:nth-of-type(4) {
+    position: relative;
+    bottom: 380px;
+    right: 450px;
+}
+
+.membre:nth-of-type(5) {
+    position: relative;
+    top: -20px;
+    right: 450px;
+}
+
+.membre:nth-of-type(6) {
+    position: relative;
+    bottom: 165px;
+    left: 450px;
+}
+
+.membre:nth-of-type(7) {
+    position: relative;
+    bottom: 200px;
 }
