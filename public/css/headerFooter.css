@@ -58,16 +58,20 @@ header a {
 }
 
 footer {
-    background-image:url("../images/footerBackground.png");
-    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.footerTop {
+    background-image: url("../images/footerTop.png");
+    height: 36px;
+}
 
+.footerBot {
+    background-color: #deb887;
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-
-    width: 100%;
-    height: fit-content;
-    padding: 50px 0 10px 0;
+    padding-bottom: 5px;
 }
 
 footer ul {
