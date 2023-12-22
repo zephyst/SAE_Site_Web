@@ -39,7 +39,7 @@ $equipe = [
    [
       'prenom' => 'Léa',
       'role' => 'Créatrice de merch',
-      'photo' => 'public/PhotosEquipeTrombi/PhotoLéa.jpg',
+      'photo' => 'public/images/PhotoLéa.jpg',
       'link' => 'ficheLea.php',
    ],
 
