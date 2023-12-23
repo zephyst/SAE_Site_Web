@@ -22,6 +22,7 @@ $header = [
   <?php endif ?>
 </head>
 
+<body>
 <header>
     <a href="quiz.php"><img src="public/images/<?= $logo ?>"></a>
         <ul>

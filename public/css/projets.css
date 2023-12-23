@@ -2,6 +2,7 @@
     font-family: Marianaxxe;
     src: url('../font/MarianaxxeV4.ttf');
 }
+
 @font-face {
     font-family: Poppins;
     src: url("../font/Poppins-Regular.ttf");
@@ -10,23 +11,39 @@
 * {
     margin: 0;
     padding: 0;
+    list-style-type: none;
 }
 
 body {
     background-color: #FFFCF1;
+    font-family: Poppins;
+}
+
+main {
+    margin: auto;
+    width: 70%;
 }
 
 h1 {
     font-family: 'Marianaxxe';
     padding: 5% 20%;
+    font-size: 3.445em;
+    font-weight: bolder;
+    text-align: center;
 }
 
 #video {
     text-align: center;
+
+}
+
+video {
+    width: 40%;
+    height: 20%;
 }
 
 #gonz {
-    font-family: 'MarianaxxeV4';
+    font-family: Marianaxxe;
 }
 
 #slam {

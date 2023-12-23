@@ -37,14 +37,19 @@ main img {
 }
 
 select {
-    width: 10%;
-    height: 5%;
+    width: 15%;
+    height: 7%;
     background-color: burlywood;
     color: black;
     font-family: Marianaxxe;
     font-weight: bolder;
-    font-size:1.899em;
-    z-index: 3;
+    font-size: 1.899em;
+    border: 4px double black;
+    text-align: center;
+}
+
+select[name="QuantiteTShirt"] {
+    margin-top: 4px;
 }
 
 select option {
@@ -52,6 +57,19 @@ select option {
     font-weight: bolder;
 }
 
-.prix{
-    font-size:1.225rem;
+.prix {
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.nom {
+    border: 2px dashed black;
+    width: 65%;
+    margin-bottom: 8px;
+    background-color: burlywood;
+}
+
+.article:first-of-type {
+    position: relative;
+    top: 30vh;
 }
