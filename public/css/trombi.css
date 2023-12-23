@@ -16,7 +16,7 @@ main {
 
 h1 {
     margin-top: 6vh;
-    font-family: Marianaxxe;
+    font-family: 'Marianaxxe';
     font-size: 4rem;
 }
 
@@ -35,7 +35,7 @@ h1 {
 }
 
 h2 {
-    font-family: Marianaxxe;
+    font-family: 'Marianaxxe';
     font-size: 3.5rem;
     font-weight: lighter;
 }
@@ -55,9 +55,9 @@ h2 {
 
 .prenom {
     font-weight: bolder;
-    font-size: 1.666em;
+    font-family: Marianaxxe;
+    font-size: 2.666em;
     padding-top: 40px;
-
 }
 
 .prenom,
