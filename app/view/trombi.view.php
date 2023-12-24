@@ -4,13 +4,15 @@
 
 <h2>Les gonzesses :</h2>
 
-<main>
-<?php foreach ($equipe as $membre) : ?>
-    <div class="membre">
-        <a href="<?=$membre['link']?>">
-            <img src= "<?=$membre['photo']?>" >
-            <p class="prenom"><?= $membre["prenom"] ?> </p>
-            <p class="role"><?= $membre["role"] ?> </p>
-        </a>
+
+    <div id="trombinoscope">
+        <?php foreach ($equipe as $membre) : ?>
+            <div class="membre">
+                <a href="<?= $membre['link'] ?>">
+                    <img src="<?= $membre['photo'] ?>">
+                    <p class="prenom"><?= $membre["prenom"] ?> </p>
+                    <p class="role"><?= $membre["role"] ?> </p>
+                </a>
+            </div>
+        <?php endforeach ?>
     </div>
-<?php endforeach ?> 

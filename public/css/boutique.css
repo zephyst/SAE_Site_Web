@@ -63,10 +63,11 @@ select option {
 }
 
 .nom {
-    border: 2px dashed black;
+    border: 2px solid black;
     width: 65%;
     margin-bottom: 8px;
     background-color: burlywood;
+    text-align: center;
 }
 
 .article:first-of-type {
