@@ -17,27 +17,26 @@
 
 main {
     font-family: "Poppins";
+    margin: auto;
+    width: 60%;
 }
 
 main img {
-    position: relative;
-    left: 20%;
-    top: -135px;
     border: 1px solid black;
     height: 400px;
     width: 400px;
     padding: 20px;
+    margin: 20px 0 20px 0;
 }
 
 .article {
-    position: relative;
-    top: 150px;
     width: 35%;
-    left: 55%;
+    float: right;
+    margin: 16vh 5vw 0 0;
 }
 
 select {
-    width: 15%;
+    width: 23%;
     height: 7%;
     background-color: burlywood;
     color: black;
@@ -48,12 +47,13 @@ select {
     text-align: center;
 }
 
-select[name="QuantiteTShirt"] {
-    margin-top: 4px;
+.article:first-of-type select[name="QuantiteTShirt"] {
+    position: relative;
+    left: 13vh;
+    bottom: 48.45px;
 }
 
 select option {
-    font-family: Marianaxxe;
     font-weight: bolder;
 }
 
@@ -64,13 +64,17 @@ select option {
 
 .nom {
     border: 2px solid black;
-    width: 65%;
+    width: 25vw;
     margin-bottom: 8px;
     background-color: burlywood;
     text-align: center;
 }
 
-.article:first-of-type {
-    position: relative;
-    top: 30vh;
+.description {
+    width: 130%;
+}
+
+select:hover {
+    transform: scale(1.025);
+    transition: all 0.25s ease;
 }

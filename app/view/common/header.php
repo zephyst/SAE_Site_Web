@@ -15,7 +15,7 @@ $header = [
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title><?= $page_title ?></title>
-
+  <link rel="icon" type="image/ico" href="public/images/LOGOOFFPOURDEVRAI.png" />
   <link rel="stylesheet" type="text/css" href="public/css/headerFooter.css">
   <?php if (!empty($css)): ?>
     <link rel="stylesheet" href="<?=$css?>">
