@@ -22,11 +22,11 @@ h1 {
 }
 
 #presentation {
-    background-image: url(../images/Feuille/longue/scotch/haut.png);
+    background-image: url('../images/Feuille longue scotch haut gauche.png');
     font-family: Poppins;
     width: 50%;
     height: 30vh;
-    padding: 15px 0 0 10px;
+    padding: 15px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -50,7 +50,7 @@ h2 {
     align-items: center;
     justify-items: center;
 
-    margin: 10vh 0;
+    margin-bottom: 10vh;
 }
 
 .role {
@@ -75,6 +75,7 @@ h2 {
     width: 115px;
     object-fit: cover;
     height: 155px;
+    border: solid burlywood 7px;
 }
 
 .membre:hover {
