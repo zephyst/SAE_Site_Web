@@ -1,0 +1,80 @@
+@font-face {
+    font-family: Marianaxxe;
+    src: url('../font/MarianaxxeV4.ttf');
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url("../font/Poppins-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+main {
+    font-family: "Poppins";
+    margin: auto;
+    width: 60%;
+}
+
+main img {
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+    margin: 20px 0 20px 0;
+}
+
+.article {
+    width: 35%;
+    float: right;
+    margin: 16vh 5vw 0 0;
+}
+
+select {
+    width: 23%;
+    height: 7%;
+    background-color: burlywood;
+    color: black;
+    font-family: Marianaxxe;
+    font-weight: bolder;
+    font-size: 1.899em;
+    border: 4px double black;
+    text-align: center;
+}
+
+.article:first-of-type select[name="QuantiteTShirt"] {
+    position: relative;
+    left: 13vh;
+    bottom: 48.45px;
+}
+
+select option {
+    font-weight: bolder;
+}
+
+.prix {
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.nom {
+    border: 2px solid black;
+    width: 25vw;
+    margin-bottom: 8px;
+    background-color: burlywood;
+    text-align: center;
+}
+
+.description {
+    width: 130%;
+}
+
+select:hover {
+    transform: scale(1.025);
+    transition: all 0.25s ease;
+}

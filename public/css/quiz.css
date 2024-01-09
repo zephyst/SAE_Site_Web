@@ -1,5 +1,100 @@
+@font-face {
+    font-family: Marianaxxe;
+    src: url('../font/MarianaxxeV4.ttf');
+}
+@font-face {
+    font-family: Poppins;
+    src: url("../font/Poppins-Regular.ttf");
+}
+
 main {
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    align-items: center;
+}
+
+h1  {
+    margin-top: 6vh;
+    font-family: Marianaxxe;
+    font-weight: normal;
+    font-size: 3rem;
+}
+
+p, label {
+    font-family:Poppins, sans-serif ;
+}
+
+.form-group p {
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 7px 0;
+}
+
+.reponse{
+    padding-left:2vw ;
+}
+
+.finir {
+    padding: 2vh 2vw;
+    background-color: burlywood;
+    border-radius: 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    background-color:#f2f2f2;
+    background-size: cover;
+    padding: 0 3vw;
+}
+.topper {
+    background-image: url("../images/quizFondUp.png");
+    background-size: cover;
+    height: 133px;
+}
+.downer{
+    background-image: url("../images/quizFondDown.png");
+    background-size: cover;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+input {
+    appearance: none;
+    background-color: #FFFCF1;
+
+    font: inherit;
+    color: burlywood;
+    height: 1em;
+    width: 1em;
+    border: 0.15em solid burlywood;
+
+    display: grid;
+    place-content: center;
+}
+
+input::before {
+    content:"";
+    width: 0.65em;
+    height: 0.65em;
+    transform: scale(0);
+    box-shadow: inset 1em 1em burlywood;
+    transition: 120ms transform ease-in-out;
+}
+
+input:checked::before {
+    transform: scale(1);
+}
+
+.reponse {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+#form {
+    width: 55vw;
 }

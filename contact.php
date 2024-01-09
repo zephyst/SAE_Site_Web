@@ -1,7 +1,8 @@
 <?php 
 
-include "database_contact.php" ;
- $page_title = 'Contact';
+$css='public/css/contact.css';
+include "database.contact.php";
+$page_title = 'Contact';
 
 ob_start();
 include "app/view/contact.view.php" ;

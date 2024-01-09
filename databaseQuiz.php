@@ -1,7 +1,7 @@
 <?php
 $questionnaire = [
-    [
-        'nom' => 'Quizz1',
+    'Marche'=> [
+        'nom' => 'Marche',
         'question' => 'Peux-tu marcher tranquillement seule dans la rue ?',
         'réponses' => [
             'non' => 'Non',
@@ -10,7 +10,7 @@ $questionnaire = [
         ],
     ],
 
-    [
+    'Technique' => [
       'nom'=> 'Quizz2',
       'question' => "Quelle est ta technique de diversion préférée lorsqu'un mec vient t'accoster ?",
         'réponses' => [
@@ -22,7 +22,7 @@ $questionnaire = [
         ],
     ],
 
-    [
+    'Type' => [
         'nom'=> 'Quizz3',
         'question' => "Quel est le type d’agression que tu subis le plus souvent ? (réponses multiples possibles)",
         'réponses' => [
@@ -37,7 +37,7 @@ $questionnaire = [
             'bisous' =>' Le "Tu veux pas me faire un bisou ma jolie?"',
         ],
     ],
-    [
+    'Aide' => [
         'nom'=> 'Quizz4',
         'question' => "As-tu déjà reçu de l’aide lors d’une agression ?",
         'réponses' => [

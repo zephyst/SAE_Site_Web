@@ -1,16 +1,115 @@
-@import url("public/font/MarianaxxeV4.ttf");
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+    font-family: Marianaxxe;
+    src: url('../font/MarianaxxeV4.ttf');
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url("../font/Poppins-Regular.ttf");
+}
 
 * {
     margin: 0;
     padding: 0;
-    background-color: aqua;
+    list-style-type: none;
+}
+
+body {
+    background-color: #FFFCF1;
+    font-family: Poppins;
+}
+
+main {
+    margin: auto;
+    width: 70%;
+    ;
+}
+
+h1 {
+    font-family: 'Marianaxxe';
+    padding: 5% 20%;
+    font-size: 3.445em;
+    font-weight: bolder;
+    text-align: center;
 }
 
 #video {
     text-align: center;
 }
 
-#gonz{
-    font-family: 'MarianaxxeV4';
+video {
+    width: 70%;
+    height: 50%;
+    margin-bottom: 15vh;
+}
+
+video strong {
+    position: relative;
+    right: 6vh;
+
+}
+
+#gonz {
+    font-family: Marianaxxe;
+    padding-right: 11vw;
+    top: 14vh;
+    font-size: 1.5em;
+}
+
+#slam {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15vh;
+    padding-left: 4vw;
+}
+
+#slam strong {
+    font-family: Marianaxxe;
+    font-weight: bolder;
+    font-size: 2.5em;
+}
+
+#text1 {
+    padding: 0 0 1vh 5vw;
+    margin-top: 8vh;
+    width: 50%;
+}
+
+
+#short-sheet {
+    background-image: url(../images/Feuille\ longue\ scotch\ haut.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    height: 35vh;
+    width: 55vw;
+    margin: auto auto 8vh auto;
+    margin-bottom: 10vh;
+}
+
+#short-sheet * {
+    width: 85%;
+    transform: rotate(180deg);
+    position: relative;
+    bottom: -100px;
+    left: 75px;
+}
+
+h3 {
+    text-align: center;
+    font-family: Marianaxxe;
+    font-size: 2.225em;
+}
+
+#lycee {
+    margin-bottom: 15vh;
+    width: 55%;
+    position: relative;
+    left: 40%;
+}
+
+#title {
+    padding-right: 14vw;
 }
