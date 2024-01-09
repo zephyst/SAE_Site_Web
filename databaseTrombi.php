@@ -2,13 +2,6 @@
 
 $equipe = [
    [
-      'prenom' => 'Gladys',
-      'role' => 'Présidente',
-      'photo' => 'public/images/PhotoGladys.jpg',
-      'link' => 'ficheGladys.php',
-   ],
-
-   [
       'prenom' => 'Litéya',
       'role' => 'Community Manager',
       'photo' => "public/images/PhotoLiteya.jpg",
@@ -27,6 +20,13 @@ $equipe = [
       'role' => 'Développeur',
       'photo' => 'public/images/PhotoLinus.jpeg',
       'link' => 'ficheLinus.php',
+   ],
+
+   [
+      'prenom' => 'Gladys',
+      'role' => 'Présidente',
+      'photo' => 'public/images/PhotoGladys.jpg',
+      'link' => 'ficheGladys.php',
    ],
 
    [

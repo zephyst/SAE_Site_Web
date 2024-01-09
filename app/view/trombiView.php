@@ -8,10 +8,13 @@
     <div id="trombinoscope">
         <?php foreach ($equipe as $membre) : ?>
             <div class="membre">
-                <a href="<?= $membre['link'] ?>">
+                <a href="<?= $membre['link'] ?>" class="ficheMembre">
                     <img src="<?= $membre['photo'] ?>">
-                    <p class="prenom"><?= $membre["prenom"] ?> </p>
-                    <p class="role"><?= $membre["role"] ?> </p>
+                    <div class="text">
+                        <p class="prenom"><?= $membre["prenom"] ?> </p>
+                        <p class="role"><?= $membre["role"] ?> </p>
+                    </div>
+
                 </a>
             </div>
         <?php endforeach ?>
