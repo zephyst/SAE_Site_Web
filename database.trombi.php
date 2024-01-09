@@ -17,7 +17,7 @@ $equipe = [
 
    [
       'prenom' => 'Sarah',
-      'role' => 'Trésorière',
+      'role' => 'Responsable de la collecte de fonds',
       'photo' => 'public/images/PhotoSarah.jpg',
       'link' => 'ficheSarah.php',
    ],
