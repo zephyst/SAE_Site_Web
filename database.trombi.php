@@ -11,7 +11,7 @@ $equipe = [
    [
       'prenom' => 'Litéya',
       'role' => 'Community Manager',
-      'photo' => "public/images/PhotoLitéya.jpg",
+      'photo' => "public/images/PhotoLiteya.jpg",
       'link' => 'ficheLiteya.php',
    ],
 
