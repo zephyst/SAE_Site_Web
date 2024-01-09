@@ -26,7 +26,7 @@ $equipe = [
       'prenom' => 'Gladys',
       'role' => 'Présidente',
       'photo' => 'public/images/PhotoGladys.jpg',
-      'link' => 'ficheGladys.php',
+      'link' => 'gladys.php',
    ],
 
    [
