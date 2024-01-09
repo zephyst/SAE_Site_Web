@@ -65,6 +65,14 @@
                 <p class="intitulé"> <?= $methode["intitulé"] ?> : </p>
                 <p class="message"> <?= $methode["message"] ?></p>
                 <p class="groupe"> <?= $methode["adresse"] ?> </p>
+                <?php if (isset($methode["adresse2"])) {
+                   echo $methode["adresse2"];
+                }
+                if (isset($methode["adresse3"])) {
+                    echo $methode["adresse3"];
+                 }
+                ?>
+               
             </div>
         <?php endforeach ?>
     </div>

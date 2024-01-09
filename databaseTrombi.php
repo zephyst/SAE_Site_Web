@@ -33,7 +33,7 @@ $equipe = [
       'prenom' => 'Mariana',
       'role' => 'Graphiste',
       'photo' => 'public/images/PhotoMariana.jpg',
-      'link' => 'ficheMariana.php',
+      'link' => 'pagemariana.php',
    ],
 
    [
