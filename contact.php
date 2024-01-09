@@ -1,11 +1,11 @@
 <?php 
 
 $css='public/css/contact.css';
-include "database.contact.php";
+include "databaseContact.php";
 $page_title = 'Contact';
 
 ob_start();
-include "app/view/contact.view.php" ;
+include "app/view/contactView.php";
 $content = ob_get_clean() ;
 
 include 'app/view/common/layout.php' ;

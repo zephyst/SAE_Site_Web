@@ -21,10 +21,10 @@ $contacts = [
 
     [
         'intitulé' => 'NOS RÉSEAUX SOCIAUX',
-        'message' => 'Pour plus de fun, suivez nous sur nos réseaux',
-        'adresse' => 'Instagram :',
-        'adresse2' => 'Twitter X : ',
-        'adresse3' => 'TikTok : ',
+        'message' => 'Pour plus de fun, suivez nous sur nos réseaux.',
+        'adresse' => 'Instagram : <a href="https://www.instagram.com/eh_connard?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">@eh_connard</a>',
+        'adresse2' => 'Twitter X : <a href="https://x.com/eh_connard?s=20">@eh_connard</a>',
+        'adresse3' => 'TikTok : <a href="https://www.tiktok.com/@eh_connard?is_from_webapp=1&sender_device=pc">@eh_connard</a>',
     ]
 ];
 

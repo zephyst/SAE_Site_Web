@@ -31,10 +31,6 @@
             <?php endforeach ?>
         </div>
         <div class="downer">
-            <a class="finir" href="../../quiz.reponse.php">Finir le quiz</a>
+            <a class="finir" href="../../../SAE_Site_Web/quiz_reponse.php">Finir le quiz</a>
         </div>
     </div>
-
-
-
-
