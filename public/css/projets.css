@@ -64,6 +64,10 @@ video strong {
     padding-left: 4vw;
 }
 
+figcaption{
+    margin-bottom: 15px;
+}
+
 #slam strong {
     font-family: Marianaxxe;
     font-weight: bolder;

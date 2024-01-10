@@ -31,3 +31,17 @@ $header = [
         </ul>
 </header>
 <main>
+    <section id=presentation>
+        <img src="public/images/PhotoGladys.jpg">
+        <div>
+            <h2>Salut, moi c'est Gladys !</h2>
+            <p>Je suis la présidente de notre association. Concrètement je fais pas grand chose, mais sur le papier, je dirige l'équipe, j'évite les conflits et les distractions.<br>Comme le reste de l'équipe, je suis en BUT MMI à l'IUT de Sénart/Fontainebleau. Cette formation me permet d'apprendre énormément sur le monde d'Internet et du multimédia en général. Comme je suis très curieuse, je m'intéresse à tous les aspects de la formation.</p>
+        </div>
+    </section>
+    <section id=passions>
+        <h3>Parlons des choses que j'aime bien...</h3>
+        <div id=photo></div>
+        <div id="papillons"></div>
+        <div id="space"></div>
+    </section>
+</main>
