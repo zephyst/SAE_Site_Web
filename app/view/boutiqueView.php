@@ -6,9 +6,9 @@
         <img src="<?= $article["image"] ?>"
         <div class= "content">
             <div class="content">
-                <p class= "nom" > <?= $article["nom"] ?> </p>
+                <p class="nom" > <?= $article["nom"] ?> </p>
                 <p class="prix"><?= $article["prix"] ?></p>
-                <p class= "description"><?= $article["description"] ?></p>
+                <p class="description"><?= $article["description"] ?></p>
                 <div class="selecteurs">
                     <div class="selecteurs">
                         <?= $article["taille"] ?>
@@ -22,9 +22,7 @@
                         </select>
                     </div>
                 </div>
-
             </div>
-
         </div>
     </div>
 <?php endforeach ?>

@@ -19,7 +19,7 @@ $equipe = [
       'prenom' => 'Linus',
       'role' => 'Développeur',
       'photo' => 'public/images/PhotoLinus.jpeg',
-      'link' => 'ficheLinus.php',
+      'link' => 'linus.php',
    ],
 
    [

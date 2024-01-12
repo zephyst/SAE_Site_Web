@@ -29,17 +29,23 @@ main {
     margin-left: 15vw;
     display: flex;
     gap: 3vw;
+    width: fit-content;
+    min-width: 70vw;
 }
 
 .article img {
     width: 30vw;
-    border: solid 10px burlywood;
+    height: 30vw;
+    margin: 0;
+    border: solid 5px burlywood;
 }
 
 .content {
     display: flex;
     flex-direction: column;
     gap: 1vh;
+
+    margin-top: 6vh;
 }
 
 .selecteurs {
@@ -64,4 +70,15 @@ select option {
 select:hover {
     transform: scale(1.025);
     transition: all 0.25s ease;
+    border:  1px solid black;
+}
+
+.prix {
+    font-weight: bold;
+}
+
+.nom {
+    font-size: 1.8em;
+    font-weight: bold;
+    font-family: Marianaxxe;
 }
