@@ -19,7 +19,7 @@ $boutique = [
   ],
 
   [
-  	'nom' => 'Mug "LES GONZESSES SONT DE SORTIE"',
+  	'nom' => 'MUG "LES GONZESSES SONT DE SORTIE"',
     'description' => 'Mug floqué',
     'prix' => "15€",
     'image' => "public/images/Mug.png", 
