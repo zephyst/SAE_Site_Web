@@ -12,7 +12,6 @@
     margin: 0;
     padding: 0;
     color: black;
-    background-color: #FFFCF1;
 }
 
 header {
@@ -50,6 +49,12 @@ header a {
     font-family: Marianaxxe;
 }
 
+
+
+body {
+    background-color: #FFFCF1;
+}
+
 h1 {
     font-family: 'Marianaxxe';
     font-size: 300%;
@@ -61,13 +66,17 @@ p {
 }
 
 #desc {
-    padding: 10%;
+    width: 30%;
 }
 
 #pp {
-    padding: 10%;
+    width: 100%;
+    margin: 10%;
+    padding: 30%;
 }
 
-#pp #desc {
+div {
     display: inline-block;
+    text-align: center;
+    vertical-align: middle;
 }
