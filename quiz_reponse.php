@@ -1,9 +1,9 @@
 <?php
-$css="public/css/quiz.reponse.css";
+$css="public/css/QuizReponse.css";
 $page_title = 'Accueil/Quiz';
 
 ob_start();
-include "app/view/quiz.reponse.view.php";
+include "app/view/quizReponseView.php";
 $content = ob_get_clean();
 
 include "app/view/common/layout.php";
