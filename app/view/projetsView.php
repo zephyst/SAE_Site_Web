@@ -2,7 +2,7 @@
 <ul>
     <li id="slam" class="proj">
         <figure>
-            <figcaption><strong>- Notre slam : </strong></figcaption>
+            <figcaption><strong>Notre slam : </strong></figcaption>
             <audio controls src="public/sounds/Slam.wav" id="audio">
                 <a href=""> Download audio </a>
             </audio>
