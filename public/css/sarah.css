@@ -106,4 +106,6 @@ img {
 footer{
     display: flex;
     font-family: 'poppins';
+    align-items: center;
+    margin: auto;
 }
