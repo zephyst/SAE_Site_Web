@@ -12,10 +12,9 @@
     </li>
     <li id="video" class="proj">
         <p id="title"><strong>Notre campagne de sensibilisation : </strong>Eh Connard !</p>
-            <video width="1440" height="720" controls>
-                <source src=”http://techslides.com/demos/sample-videos/small.ogv” type=video/ogg>
-                <source src="/build/videos/arcnet.io(7-sec).mp4" type=video/mp4>
-            </video>
+        <iframe width="585" height="300" src="public/images/Spot_Sensibilisation_EhConnard.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            
         <div id="short-sheet">
             <p id="text2">Et si on prenait conscience de ce que l’on subit et qu’on faisait le choix de s’entraider et de mener
                 une révolte placée sous le signe de la sororité ?<br>La miss, la poupée, la jolie fille, la demoiselle, bref : </p>
