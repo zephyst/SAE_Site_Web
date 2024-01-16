@@ -1,0 +1,34 @@
+@font-face {
+    font-family: Marianaxxe;
+    src: url('../font/MarianaxxeV4.ttf');
+}
+@font-face {
+    font-family: Poppins;
+    src: url("../font/Poppins-Regular.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav ul {
+    text-decoration: none;
+
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav img {
+    width: 150px;
+}
+header {
+    display: inline-block;
+}

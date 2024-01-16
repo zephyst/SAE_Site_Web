@@ -15,23 +15,22 @@ $header = [
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title><?= $page_title ?></title>
-  <link rel="icon" type="image/ico" href="public/images/LOGOOFFPOURDEVRAI.png" />
-  <link rel="stylesheet" type="text/css" href="public/css/headerFooter.css">
-  <?php if (!empty($css)): ?>
-    <link rel="stylesheet" href="<?=$css?>">
-  <?php endif ?>
+  <link rel="icon" type="image/ico" href="public/images/logomariana.png" />
+  <link rel="stylesheet" type="text/css" href="public/css/mariana.css">
+  
 </head>
 
 <body>
 <header>
-    <a href="quiz.php"><img src="public/images/<?= $logo ?>"></a>
-        <ul>
-            <?php foreach($header as $title=>$url): ?>
-            <li>
-            <a href="<?= $url ?>"> <?= $title ?> </a>
-            </li>
-            <?php endforeach ?>
-        </ul>
+    <nav>
+      <img src="public/images/logomariana.png" alt="logo personnel 'eh connard'">
+      <ul>
+        <li><a href="page_projet.php">NOS PROJETS</a></li>
+        <li><a href="contact.php">NOUS CONTACTER</a></li>
+        <li><a href="boutique.php">BOUTIQUE</a></li>
+        <li><a href="trombi.php">QUI SOMMES-NOUS ?</a></li>
+      </ul>
+    </nav>
 </header>
 
 <main>
