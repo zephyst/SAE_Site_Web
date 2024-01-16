@@ -17,7 +17,6 @@ a {
 
 header {
     display: flex;
-    border-bottom: solid 2px black;
     position: sticky;
     top: 0;
     z-index: 2;
@@ -59,15 +58,34 @@ main{
 }
 
 #presentation{
-    margin:40px;
+    background-color: #76459C;
+    padding:40px;
     display:flex;
     align-items: center;
+    
 }
 
 #presentation div{
     width:600px;
-    margin:40px;
+    margin-left:40px;
+    padding:30px;
+    border-radius: 50px;
     text-align: left;
+    background-color: #4b335e;
+    margin:auto;
+}
+
+#presentation img{
+    border-radius: 50px;
+    border:#4b335e solid 3px;
+}
+
+#presentation div h2{
+    margin-bottom:10px;
+}
+
+#presentation div h2, #presentation div p{
+    color:white;
 }
 
 #passions{
