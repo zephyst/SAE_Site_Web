@@ -19,11 +19,14 @@ body {
     font-family: Poppins;
 }
 
+section {
+    margin-bottom: 8vh;
+}
 
 h1 {
     font-family: 'Marianaxxe';
     margin: 5vh auto ;
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: bolder;
     text-align: center;
 }
@@ -31,11 +34,7 @@ h1 {
 h3 {
     font-family: Marianaxxe;
     font-size: 2.5rem;
-}
-
-#slam h3 {
     width: fit-content;
-    padding-right: 60vw;
     margin: 2vh auto;
 }
 
@@ -46,5 +45,81 @@ h3 {
 }
 
 #textSlam {
-    max-width: 50vw;
+    max-width: 30vw;
+}
+
+.videoContent {
+    display: flex;
+    flex-direction: column;
+
+    gap: 2vh;
+    align-items: center;
+    margin: auto;
+
+    width: 50vw;
+
+    background-color: #f2f2f2;
+}
+
+.videoContent h4 {
+    font-family: Marianaxxe;
+    font-size: 1.5rem;
+}
+
+.topper {
+    width: 50vw;
+    background-image: url("../images/quizFondUp.png");
+    background-size: cover;
+    height: 133px;
+    margin: auto;
+}
+.downer {
+    background-image: url("../images/downer.png");
+    background-size: cover;
+    height: 135px;
+    width: 50vw;
+    margin: auto;
+}
+
+#textVideo {
+    max-width: 40vw;
+}
+
+#lycee p {
+    width: 58vw;
+    margin: 5vh auto 0 auto;
+    padding: 1vh 1vw 0 1vw;
+
+    background-color: #f2f2f2;
+}
+
+#lycee p::before {
+    content: "";
+
+    display: block;
+    width: 200px;
+    height: 50px;
+
+    background-color: rgba(222, 184, 135, 0.7);
+
+    position: relative;
+    top: -30px;
+    left: 40%;
+}
+
+.downer2 {
+    background-image: url("../images/downer2.png");
+    background-size: cover;
+    height: 135px;
+    width: 60vw;
+    margin: auto;
+}
+
+audio {
+    width: 20vw;
+    height: 50px;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: burlywood;
 }
