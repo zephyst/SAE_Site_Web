@@ -43,6 +43,7 @@ $header = [
         <div id=photo>
             <img>
             <p>J'ai toujours apprécié la photo, et j'adore les retoucher, en faisant des collages ou en jouant avec les couleurs, les contrastes, les lumières, etc.<br>Je tiens une page Instagram où je montre les photos que je réalise avec mon appareil photo de temps en temps. J'ai aussi réalisé quelques petits projets photos, et on peut les retrouver sur la page.</p>
+            <a href="https://www.instagram.com/glads.camera/"><img src="public/images/insta_gladys.jpg"></a>
             <a href="https://www.instagram.com/glads.camera/">@glads.camera</a>
         </div>
         <div id="papillons"></div>
