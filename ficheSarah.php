@@ -49,14 +49,29 @@
                 <h1>Donc, qu'est-ce que j'aime ? </h1>
                 <p>Mes couleurs préférées sont le bleu et le violet, jouer à des jeux de société et sortir pour faire du vélo</p>
             </div>
-            <div id="child"><img src="enfant_qui_danse.jpg" alt="child"></div>
+            <div id="child"><img src="" alt="caca"></div>
         </section>
     </main>
     <footer>
-        <ul>
-            <li>Mes réseaux :</li>
-            <li>
+        <ul id="footer">
+            <li class="footer">Les réseaux Eh Connard ! :</li>
+            <li class="footer">
                 <a href="https://www.instagram.com/iloveu_3000__/">
+                    <img src="public/pictogramme/instagram.svg" alt="Logo Instagram" style="filter: invert(100%) sepia(5%) saturate(7500%) hue-rotate(302deg) brightness(114%) contrast(102%);">
+                    Instagram
+                </a>
+            </li>
+            <li>
+                <a href="https://www.tiktok.com/@eh_connard?_t=8hva9LT0cTI&_r=1">
+                    <img src="public/pictogramme/tiktok.svg" alt="Logo Instagram" style="filter: invert(100%) sepia(5%) saturate(7500%) hue-rotate(302deg) brightness(114%) contrast(102%);">
+                    Instagram
+                </a>
+            </li>
+        </ul>
+        <ul id="footer">
+            <li class="footer">Mes réseaux :</li>
+            <li class="footer">
+                <a href="https://www.instagram.com/eh_connard/">
                     <img src="public/pictogramme/instagram.svg" alt="Logo Instagram" style="filter: invert(100%) sepia(5%) saturate(7500%) hue-rotate(302deg) brightness(114%) contrast(102%);">
                     Instagram
                 </a>

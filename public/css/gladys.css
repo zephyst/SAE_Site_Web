@@ -67,7 +67,6 @@ main{
 
 #presentation div{
     width:600px;
-    margin-left:40px;
     padding:30px;
     border-radius: 50px;
     text-align: left;
@@ -89,7 +88,8 @@ main{
 }
 
 #passions{
-    margin: 40px;
+    background-color: #4b335e;
+    padding: 40px;
 }
 
 #passions h3{
