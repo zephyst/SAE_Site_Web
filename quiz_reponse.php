@@ -1,5 +1,5 @@
 <?php
-$css="public/css/QuizReponse.css";
+$css="public/css/quizReponse.css";
 $page_title = 'Accueil/Quiz';
 
 ob_start();
