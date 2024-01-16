@@ -142,7 +142,7 @@ main {
     background-color:rgba(184, 186, 233,0.5);
     width:60%;
     height:60%;
-    text-align: center;
+    text-align: left;
 }
 
 #fiche h2{
@@ -152,7 +152,7 @@ main {
 }
 
 #fiche p,#fiche h2{
-    margin:14px;
+    margin:10px;
 }
 
 #text{
@@ -162,10 +162,12 @@ main {
 
 #fiche p{
     font-size:0.9em;
+    border:3px solid black;
+    padding:2.5px;
 }
 
 #contact{
-    height:20vh;
+    height:60vh;
     width:100%;
     background-color: black;
     display: flex;
@@ -194,11 +196,33 @@ main {
 
 #contact ul{
     display: inline-flex;
-    gap:50px;
+    gap:132px;
 }
 
 #contact a:hover{
     text-decoration: underline;
     color:red;
-    transition: all 0.55s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.footerTop{
+    background-color: burlywood;
+}
+
+footer ul{
+    margin:1.5rem;
+}
+
+#contact h1{
+    color:white;
+    text-transform: uppercase;
+    font-family: 'Marianaxxe';
+    text-align: center;
+    font-size:3em;
+}
+
+#contact img{
+    display: block;
+    margin: auto;
+    transform: rotate(180deg);
 }
