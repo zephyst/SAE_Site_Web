@@ -27,7 +27,7 @@ $rsxEC = [
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Linus Blairon | Eh ! Connard</title>
+    <title>Linus Blairon | Eh Connard !</title>
     <link rel="icon" type="image/ico" href="public/images/LOGOOFFPOURDEVRAI.png" />
     <link rel="stylesheet" href="public/css/linus.css">
 </head>
@@ -62,7 +62,7 @@ $rsxEC = [
             <card>
                 <h2>Qui suis-je ?</h2>
                 <p>
-                    Je suis un développeur et designer web pour l'association Eh ! Connard. J'ai anciennement travaillé sur
+                    Je suis un développeur et designer web pour l'association Eh Connard !. J'ai anciennement travaillé sur
                     plusieurs projets, par exemple un escape game numérique pour le CNFPT, où j'ai fais l'UI design et participé au
                     game design. Je suis étudiant en BUT MMI à l'IUT de Sénart Fontainebleau et je vis ma meilleure vie.
                     J'aime beaucoup l'UI/UX design et j'aimerais en faire mon métier.
