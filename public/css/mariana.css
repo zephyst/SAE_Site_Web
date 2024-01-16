@@ -15,11 +15,18 @@
 
 nav li{
     display: inline-block;
+    margin: 20px;
+    text-align: center;
 }
 
 nav ul {
     text-decoration: none;
+    padding : 40px; 
+    
 
+}
+nav {
+    background-color: #951a81;
 }
 
 nav a {
@@ -28,7 +35,7 @@ nav a {
 
 nav img {
     width: 150px;
-}
-header {
-    display: inline-block;
+    margin-right: 30px;
+    background-color: white;
+    padding: 40px;
 }

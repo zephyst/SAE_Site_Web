@@ -23,8 +23,8 @@ $header = [
 <body>
 <header>
     <nav>
-      <img src="public/images/logomariana.png" alt="logo personnel 'eh connard'">
       <ul>
+        <li><img src="public/images/logomariana.png" alt="logo personnel 'eh connard'" class="header"></li>
         <li><a href="page_projet.php">NOS PROJETS</a></li>
         <li><a href="contact.php">NOUS CONTACTER</a></li>
         <li><a href="boutique.php">BOUTIQUE</a></li>
