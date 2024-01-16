@@ -29,13 +29,26 @@
 </header>
 
 <body>
+    <h2>Page de présentation de Sarah</h2>
     <main>
         <section>
-            <img src="public/images/PhotoSarah.jpg" alt="Photo Sarah" id="pp">
+            <div id="pp"><img src="public/images/PhotoSarah.jpg" alt="Photo Sarah"></div>
             <div id="desc">
-                <h1>En apprendre plus sur moi : </h1>
-                <p>Je m'apelle Sarah, [...] et je me charge de la collecte de fonds pour notre association [...] Faites des dons !</p>
+                <h1>Moi et ma fonction : </h1>
+                <p>Je m'apelle Sarah, je soutiens à fond notre association et je me charge de la collecte de fonds pour celle-ci. 
+                    L'année dernière, on a reussi à récolter plus de 10 000 euros ! 
+                    Cela nous a permis de fournir de l'aide pour des victimes de harcèlement de rue, ainsi que nous faire connaître un peu plus sur les réseaux sociaux. 
+                    Si vous souhaitez nous contacter pour recevoir de l'aide, vous pouvez le faire dans la rubrique "Nous contacter" sur notre site. 
+                    Si vous voulez vous engager avec nous dans ce combat, vous pouvez nous faire un don sur notre 
+                    <a href="">cagnotte</a>, tous les montants sont acceptés et chaque centime compte ! Faites des dons !</p>
             </div>
+        </section>
+        <section>
+            <div id="like">
+                <h1>Donc, qu'est-ce que j'aime ? </h1>
+                <p>L</p>
+            </div>
+            <div id="child"><img src="enfant_qui_danse.jpg" alt="child"></div>
         </section>
     </main>
 </body>

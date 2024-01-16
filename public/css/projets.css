@@ -80,7 +80,6 @@ figcaption{
     width: 50%;
 }
 
-
 #short-sheet {
     background-image: url(../images/Feuille\ longue\ scotch\ haut.png);
     background-size: cover;
@@ -116,4 +115,8 @@ h3 {
 
 #title {
     padding-right: 14vw;
+}
+
+#audio{
+    margin-top: 10%;
 }
