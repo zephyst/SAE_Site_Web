@@ -1,0 +1,54 @@
+@font-face {
+    font-family: ButterflyKids;
+    src: url("../font/ButterflyKids-Regular.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+body {
+    background-color: #FFFCF1;
+}
+
+a {
+    text-decoration: none;
+    font-family: Poppins,sans-serif;
+}
+
+header {
+    display: flex;
+
+    border-bottom: solid 2px black;
+    background-color: #FFFCF1;
+
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+header img {
+    height: 80px;
+    margin-left: 8vw;
+}
+
+header ul {
+    list-style-type: none;
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header li {
+    margin-right: 8vw;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: ButterflyKids;
+}
