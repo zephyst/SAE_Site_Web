@@ -53,27 +53,40 @@
         </section>
     </main>
     <footer>
-        <ul id="footer">
-            <li class="footer">Les réseaux Eh Connard ! :</li>
-            <li class="footer">
+        <ul id="reseaux">
+            <li class="connard">Les réseaux Eh Connard ! : </li>
+            <li class="connard">
+                <a href="https://www.instagram.com/eh_connard/">
+                    <img src="public/pictogramme/instagram.svg" alt="Logo Instagram" style="filter: invert(100%) sepia(5%) saturate(7500%) hue-rotate(302deg) brightness(114%) contrast(102%);">
+                    Instagram
+                </a>
+            </li>
+            <li class="connard">
+                <a href="https://twitter.com/eh_connard">
+                    <img src="public/pictogramme/twitter-x.svg" alt="Logo Twitter" style="filter: invert(100%) sepia(5%) saturate(7500%) hue-rotate(302deg) brightness(114%) contrast(102%);">
+                    Twitter/X
+                </a>
+            </li>
+            <li class="connard">
+                <a href="https://www.tiktok.com/@eh_connard?_t=8hva9LT0cTI&_r=1">
+                    <img src="public/pictogramme/tiktok.svg" alt="Logo TikTok" style="filter: invert(100%) sepia(5%) saturate(7500%) hue-rotate(302deg) brightness(114%) contrast(102%);">
+                    TikTok
+                </a>
+            </li>
+        </ul>
+
+        <ul id="reseaux">
+            <li class="moi">Mes réseaux : </li>
+            <li class="moi">
                 <a href="https://www.instagram.com/iloveu_3000__/">
                     <img src="public/pictogramme/instagram.svg" alt="Logo Instagram" style="filter: invert(100%) sepia(5%) saturate(7500%) hue-rotate(302deg) brightness(114%) contrast(102%);">
                     Instagram
                 </a>
             </li>
-            <li>
-                <a href="https://www.tiktok.com/@eh_connard?_t=8hva9LT0cTI&_r=1">
-                    <img src="public/pictogramme/tiktok.svg" alt="Logo Instagram" style="filter: invert(100%) sepia(5%) saturate(7500%) hue-rotate(302deg) brightness(114%) contrast(102%);">
-                    Instagram
-                </a>
-            </li>
-        </ul>
-        <ul id="footer">
-            <li class="footer">Mes réseaux :</li>
-            <li class="footer">
-                <a href="https://www.instagram.com/eh_connard/">
-                    <img src="public/pictogramme/instagram.svg" alt="Logo Instagram" style="filter: invert(100%) sepia(5%) saturate(7500%) hue-rotate(302deg) brightness(114%) contrast(102%);">
-                    Instagram
+            <li class="moi">
+                <a href="https://www.instagram.com/iloveu_3000__/">
+                    <img src="public/pictogramme/twitter-x.svg" alt="Logo Twitter" style="filter: invert(100%) sepia(5%) saturate(7500%) hue-rotate(302deg) brightness(114%) contrast(102%);">
+                    Twitter/X
                 </a>
             </li>
         </ul>
