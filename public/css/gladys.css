@@ -58,8 +58,9 @@ main{
 }
 
 #presentation{
-    background-color: #76459C;
+    background-color: #bc9bde;
     padding:40px;
+    height:400;
     display:flex;
     align-items: center;
     
@@ -69,14 +70,15 @@ main{
     width:600px;
     padding:30px;
     border-radius: 50px;
+    
     text-align: left;
-    background-color: #4b335e;
+    background-color:#76459C;
     margin:auto;
 }
 
 #presentation img{
     border-radius: 50px;
-    border:#4b335e solid 3px;
+    border:#76459C solid 3px;
 }
 
 #presentation div h2{
@@ -88,10 +90,39 @@ main{
 }
 
 #passions{
-    background-color: #4b335e;
+    background-color: #bc9bde;
     padding: 40px;
 }
 
-#passions h3{
+#passions h3, #photo p{
     text-align: left;
+    color: white;
+}
+
+#photo{
+    display:flex;
+    align-items: center;
+}
+
+#photo p{
+    width:600px;
+    padding:30px;
+
+    border-radius: 50px;
+    text-align: left;
+    background-color:#76459C ;
+    
+    margin:auto;
+}
+
+#compte{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+#compte img{
+    width:175px;
+    border-radius: 25px;
+    text-align: right;
 }

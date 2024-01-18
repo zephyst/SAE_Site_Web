@@ -41,12 +41,16 @@ $header = [
     <section id=passions>
         <h3>Parlons des choses que j'aime bien...</h3>
         <div id=photo>
-            <img>
             <p>J'ai toujours apprécié la photo, et j'adore les retoucher, en faisant des collages ou en jouant avec les couleurs, les contrastes, les lumières, etc.<br>Je tiens une page Instagram où je montre les photos que je réalise avec mon appareil photo de temps en temps. J'ai aussi réalisé quelques petits projets photos, et on peut les retrouver sur la page.</p>
-            <a href="https://www.instagram.com/glads.camera/"><img src="public/images/insta_gladys.jpg"></a>
-            <a href="https://www.instagram.com/glads.camera/">@glads.camera</a>
+            <a id="compte" href="https://www.instagram.com/glads.camera/"><img src="public/images/insta_gladys.jpg">@glads.camera</a>
         </div>
-        <div id="papillons"></div>
-        <div id="space"></div>
+        <div id="papillons">
+            <img src="">
+            <p></p>
+        </div>
+        <div id="space">
+            <p></p>
+            <img src="">
+        </div>
     </section>
 </main>
