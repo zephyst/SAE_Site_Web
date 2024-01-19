@@ -41,16 +41,25 @@ $header = [
     <section id=passions>
         <h3>Parlons des choses que j'aime bien...</h3>
         <div id=photo>
-            <p>J'ai toujours apprécié la photo, et j'adore les retoucher, en faisant des collages ou en jouant avec les couleurs, les contrastes, les lumières, etc.<br>Je tiens une page Instagram où je montre les photos que je réalise avec mon appareil photo de temps en temps. J'ai aussi réalisé quelques petits projets photos, et on peut les retrouver sur la page.</p>
+            <div>
+                <h3>La photo...</h3>
+                <p>J'ai toujours apprécié la photo, et j'adore les retoucher, en faisant des collages ou en jouant avec les couleurs, les contrastes, les lumières, etc. J'ai même fait mon stage de troisième chez une photographe, et c'était une expérience très enrichissante.<br>Je tiens une page Instagram où je montre les photos que je réalise avec mon appareil photo de temps en temps. J'ai aussi réalisé quelques petits projets photos, et on peut les retrouver sur cette page. Cliquez à droite pour voir mon compte !</p>
+            </div>
             <a id="compte" href="https://www.instagram.com/glads.camera/"><img src="public/images/insta_gladys.jpg">@glads.camera</a>
         </div>
-        <div id="papillons">
-            <img src="">
-            <p></p>
-        </div>
         <div id="space">
-            <p></p>
-            <img src="">
+            <img src="public/images/papillon.jpeg">
+            <div>
+                <h3>L'espace...</h3>
+                <p>Quand j'étais petite, je rêvais de devenir astrophysicienne, mais mes résultats en physique à partir de la 1ère m'ont bien fait comprendre que c'était un amour qui n'était pas réciproque.<br>Je suis FASCINÉE par l'espace, mais surtout par les étoiles. Je connais pas mal de constellation, et un de mes plus grands rêves serait de réussir à voir la Voie Lactée de mes propres yeux.<br>L'été dernier, j'ai adoré observer la Lune avec mes meilleurs amis en forêt grâce à notre lunette astronomique, et j'ai hâte de recommencer cette année.</p>
+            </div>
+        </div>
+        <div id="papillons">
+            <div>
+                <h3>Les papillons...</h3>
+                <p>Si vous pensiez qu'il est impossible d'être amoureux.se des papillons, et bien vous vous trompez !<br>J'adore par dessus tout cet animal (ou cet insecte, si vous préférez), déjà parce que je le trouve très beau, mais aussi parce que j'ai beaucoup de souvenirs personnels liés à celui-ci depuis toute petite. Je connais pas mal de noms d'espèces différentes et je pourrais passer des journées entières à les observer !</p>
+            </div>
+            <img src="public/images/telescope.jpeg">
         </div>
     </section>
 </main>
