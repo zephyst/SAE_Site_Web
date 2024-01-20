@@ -99,9 +99,24 @@ img {
     border-radius: 15%;
 }
 
-footer{
+footer {
+    backdrop-filter: blur(15px);
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 1%;
+    font-family: 'poppins';
+}
+
+#reseaux {
+    display: inline-block;
+}
+
+
+/*#footer {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer {
     display: flex;
     font-family: 'poppins';
-    align-items: center;
-    margin: auto;
-}
+}*/
