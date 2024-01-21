@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: Marianaxxe;
     src: url('../font/MarianaxxeV4.ttf');
@@ -41,7 +42,8 @@ header {
 a{
     font-family: "Marianaxxe";
     font-size: 30px;
-}
+    color: #0f0f0f;
+}  
 
 
 .titre{
@@ -58,6 +60,15 @@ h3 {
 
     font-family: "Marianaxxe";
     font-size: 40px;
+}
+
+.minimoi{
+    height: 500px;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 750px;
+    
+
 }
 
 .container {
@@ -84,17 +95,18 @@ h3 {
 .slogan{
     position: absolute;
     height: 225px;
-    transform: rotate(30deg);
-    left: 0;
+    transform: rotate(25deg);
     z-index: 1; 
-    margin-top: -110px;
+    margin-top: -115px;
+    margin-left: -20px;
 }
 footer {
     text-align: center;
-    padding: 20px;
-    margin-top: 100px;
+    padding: 25px;
+    margin-top: 120px;
     background-color: #faf8f867;
     color: #fff;
+    z-index: 2;
 }
 
 .social-icons a {
@@ -102,6 +114,10 @@ footer {
     text-decoration: none;
     color: #fff;
     transition: color 0.3s ease-in-out;
+
+}
+.social-icons a:hover {
+    color: rgb(22, 22, 22);
 
 }
 
@@ -118,8 +134,4 @@ footer {
 
 .nom_image3{
     
-}
-.social-icons a:hover {
-    color: rgb(22, 22, 22);
-
 }

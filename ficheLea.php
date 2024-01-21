@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="public/css/lea.css">
+    <head>
+    <title>LÉA BOINEL/EH!CONNARD</title>
+    <link rel="icon" type="image/ico" href="public/images/EH!CONNARD.png">
+    
+
+</head>
 
 <header>
     <div class="navbar-left">
             <img src="public/images/EH!CONNARD.png" alt="Logo_EH!CONNARD" class=image1>
     </div>
     <div class="navbar-right">
-        <a href="./trombi.php">Revenir au site principal</a>
+        <a href="./trombi.php" class=retour>Revenir au site principal</a>
+
     </div>
 
 </header>
@@ -21,8 +28,13 @@
 <div class="titre">
     
         <h1>Léa Boinel</h1>
-        <h2>Créatrice de Merch</h2>
+        <h2>Créatrice de Merch</h2> 
 </div>
+
+<div class="minimoi">
+        <img src="public/images/minimoi_manifestation.png" alt="dessinlea" >
+</div>
+
 
     <div class="container">
        
@@ -31,14 +43,14 @@
         <div class="box">
             <h3>Mes passions</h3>
             <p>La vidéo et l'animation me fascinent depuis des années.
-                La vidéo, par sa capacité à capturer la réalité, documentant le quotidien ou explorant des horizons imaginaires. Elle est le témoin de notre histoire et le miroir de nos émotions.
-                L'animation, quant à elle, va au-delà des limites de la réalité, donnant vie à des idées abstraites et à des univers fantastiques. Des personnages prennent vie, des histoires prennent forme, emportant le spectateur dans un voyage visuel envoûtant.
-                 Ce sont des expériences sensorielle profonde, suscitant des émotions et inspirant la créativité. Pour ceux qui les chérissent, la vidéo et l'animation sont bien plus que des loisirs ; ce sont des moyens d'exploration infinie et d'expression artistique sans limites</p>
+                La vidéo, par sa capacité à capturer la réalité, les émotions..
+                L'animation, quant à elle, va au-delà des limites de la réalité, donnant vie à des idées abstraites et à des univers fantastiques. Des personnages prennent vie,emportant le spectateur dans un nom monde.
+            </p>
         </div>
 
         <div class="box">
             <h3>Mon travail</h3>
-            <p>Mon travail est l'extension de mon imagination débordante, une exploration infinie capturée dans des vidéos, photos et animations que je partage avec passion sur Instagram. À travers ces médias, je façonne des instants mémorables, cherchant à susciter des souvenirs et des émotions chez ceux qui découvrent mon travail.</p>
+            <p>Mon travail est l'extension de mon imagination débordante, une exploration infinie capturée dans des vidéos, photos et animations que je partage sur Instagram. À travers ces médias, je façonne des instants mémorables, cherchant à susciter des souvenirs et des émotions chez ceux qui découvrent mon travail.</p>
         </div>
 
         <div class="box">
