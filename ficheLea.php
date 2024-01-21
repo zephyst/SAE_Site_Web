@@ -54,7 +54,7 @@
         </div>
 
         <div class="box">
-            <h3>Qui je suis</h3>
+            <h3>Qui suis-je ?</h3>
             <p>  Je m'appelle Léa Boinel, je suis en charge de la création des designs qu'on retrouve dans la boutique de l'association.</p>
         </div>
     </div>
@@ -64,8 +64,8 @@
 
     <footer>
         <div class="social-icons">
-            <a href="https://www.instagram.com/lea_bnl_/"><img src="public/images/icon.png" alt="Instagram" class=image2>lea_bnl</a>
-            <a href="https://www.instagram.com/eh_connard/"><img src="public/images/icon.png" alt="Instagram" class=image3>eh_connard</a>
+            <a href="https://www.instagram.com/lea_bnl_/"><img src="public/images/icon.png" alt="Instagram" class=image2>  lea_bnl</a>
+            <a href="https://www.instagram.com/eh_connard/"><img src="public/images/icon.png" alt="Instagram" class=image3>  eh_connard</a>
         </div>
     </footer>
 
