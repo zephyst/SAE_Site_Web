@@ -40,20 +40,29 @@
        
         
 
-        <div class="box">
-            <h3>Mes passions</h3>
+        <div class="box1">
+            <h3>Mes Passions</h3>
             <p>La vidéo et l'animation me fascinent depuis des années.
                 La vidéo, par sa capacité à capturer la réalité, les émotions..
                 L'animation, quant à elle, va au-delà des limites de la réalité, donnant vie à des idées abstraites et à des univers fantastiques. Des personnages prennent vie,emportant le spectateur dans un nom monde.
             </p>
+            
         </div>
 
-        <div class="box">
-            <h3>Mon travail</h3>
+        <div id="camescope"
+         a href="https://www.instagram.com/p/CMsbrdDqBMzNyNydjdcd_jQxGXroMNSzWaxwtE0/"><img src="public/images/passions.jpg">@lea_bnl_</a>
+        </div>
+
+        <div class="box2">
+            <h3>Mon Travail</h3>
             <p>Mon travail est l'extension de mon imagination débordante, une exploration infinie capturée dans des vidéos, photos et animations que je partage sur Instagram. À travers ces médias, je façonne des instants mémorables, cherchant à susciter des souvenirs et des émotions chez ceux qui découvrent mon travail.</p>
         </div>
 
-        <div class="box">
+        <div id="story"
+         a href="https://www.instagram.com/stories/highlights/18016372444561241/"><img src="public/images/screenstoryune.png">@lea_bnl_</a>
+        </div>
+
+        <div class="box3">
             <h3>Qui suis-je ?</h3>
             <p>  Je m'appelle Léa Boinel, je suis en charge de la création des designs qu'on retrouve dans la boutique de l'association.</p>
         </div>

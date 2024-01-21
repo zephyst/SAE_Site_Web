@@ -19,8 +19,9 @@ body {
     font-family:"Poppins";
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
     background: radial-gradient(#BE4B1D 0%, #ffffff 100%);
+
 }
 
 header {
@@ -72,25 +73,107 @@ h3 {
 }
 
 .container {
+    display: flex;
+    align-items: center;
     position: relative;
     max-width: 1200px;
-    margin: 20px auto;
-    padding: 20px;
+    margin-left: 150px;
+    margin-right: 20px;
+    padding: 25px;
     backdrop-filter: blur(15px);
     background-color: rgba(255, 255, 255, 0.283);
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+   
     
 }
 
-.box {
+.box1{
     margin-top: 40px;
     padding: 10px;
     background-color: #ff59002f;
-    border-radius: 10px;
+    border-radius: 40px;
     align-items: center;
- 
+    width: 300px;
+    padding: 20px;
+    height: 300px;
+    margin-bottom: 900px;
+
+    
 }
+
+.box1 p{
+    margin-top: 3px;
+    width: 300px;;
+    height: 300px;
+
+}
+
+#camescope{
+    display: flex;
+    flex-direction: column;
+    width:500px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 850px;
+    margin-left: 300px
+    
+}
+
+#camescope:hover{
+    transform: scale(110%);
+    transition-duration: 0.5s;
+}
+
+
+.box2{
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #ff59002f;
+    border-radius: 40px;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    height: 300px;
+    margin-bottom: 200px;
+    margin-left: -300px;
+}
+
+.box2 p{
+    margin-top: 3px;
+    width: 300px;
+    height: 300px;
+}
+
+
+#story{
+    width: 5px;
+    height: 120px;
+    margin-left: -1100px;
+    margin-bottom: 200px;
+    border-radius: 40px;
+    
+}
+
+#story:hover{
+    transform: scale(110%);
+    transition-duration: 0.5s;
+}
+
+
+.box3{
+    margin-top: 600px;
+    padding: 0px;
+    background-color: #ff59002f;
+    border-radius: 40px;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    height: 300px;
+    margin-bottom: -0px;
+    margin-left: 0px;
+}
+
+
 
 .slogan{
     position: absolute;
@@ -103,7 +186,7 @@ h3 {
 footer {
     text-align: center;
     padding: 25px;
-    margin-top: 120px;
+    margin-top: 130px;
     background-color: #faf8f867;
     color: #fff;
     z-index: 2;
@@ -117,7 +200,7 @@ footer {
 
 }
 .social-icons a:hover {
-    color: rgb(228, 216, 216);
+    color: #BE4B1D;
 
 }
 
@@ -125,13 +208,6 @@ footer {
     height: 25px;
 }
 
-.nom_image2{
-    
-}
 .image3{
     height: 25px;
-}
-
-.nom_image3{
-    
 }
