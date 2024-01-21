@@ -34,7 +34,7 @@ header {
     background-color: rgba(255, 255, 255, 0.283);
 }
 
-img{
+.image1{
     height: 125px;
 }
 
@@ -43,13 +43,25 @@ a{
     font-size: 30px;
 }
 
-img#dessin{
-    height: 225px;
-    transform: rotate(30deg);
-    
+
+.titre{
+    font-family: "Marianaxxe";
+    font-size: 27px; 
+    margin-left: 230px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    letter-spacing: -1px;
+
+}
+
+h3 {
+
+    font-family: "Marianaxxe";
+    font-size: 40px;
 }
 
 .container {
+    position: relative;
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
@@ -58,12 +70,6 @@ img#dessin{
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     
-}
-
-h1, h2, h3 {
-    color: #333;
-    font-family: "Marianaxxe";
-    font-size: 40px;
 }
 
 .box {
@@ -75,21 +81,45 @@ h1, h2, h3 {
  
 }
 
+.slogan{
+    position: absolute;
+    height: 225px;
+    transform: rotate(30deg);
+    left: 0;
+    z-index: 1; 
+    margin-top: -110px;
+}
 footer {
     text-align: center;
     padding: 20px;
+    margin-top: 100px;
     background-color: #faf8f867;
     color: #fff;
 }
 
 .social-icons a {
-    margin: 0 10px;
+    margin: 150px;
     text-decoration: none;
     color: #fff;
     transition: color 0.3s ease-in-out;
+
 }
 
+.image2{
+    height: 25px;
+}
+
+.nom_image2{
+    
+}
+.image3{
+    height: 25px;
+}
+
+.nom_image3{
+    
+}
 .social-icons a:hover {
-    color: rgb(183, 80, 16);
+    color: rgb(22, 22, 22);
 
 }

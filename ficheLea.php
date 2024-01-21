@@ -7,7 +7,7 @@
 
 <header>
     <div class="navbar-left">
-            <img src="public/images/EH!CONNARD.png" alt="Logo_EH!CONNARD">
+            <img src="public/images/EH!CONNARD.png" alt="Logo_EH!CONNARD" class=image1>
     </div>
     <div class="navbar-right">
         <a href="./trombi.php">Revenir au site principal</a>
@@ -15,13 +15,14 @@
 
 </header>
 
-        <section id=dessin>
-        <img src="public/images/gonz.png" id="dessin">
+        
 <body>
 
-        
-<h1>Léa Boinel</h1>
+<div class="titre">
+    
+        <h1>Léa Boinel</h1>
         <h2>Créatrice de Merch</h2>
+</div>
 
     <div class="container">
        
@@ -45,12 +46,15 @@
             <p>  Je m'appelle Léa Boinel, je suis en charge de la création des designs qu'on retrouve dans la boutique de l'association.</p>
         </div>
     </div>
+         <img src="public/images/gonz.png" alt="dessin" class="slogan">
+    
+</body>
 
     <footer>
         <div class="social-icons">
-            <a href="https://www.instagram.com/lea_bnl_/"><img src="public/images/icon.png" alt="Instagram">lea_bnl_</a>
-            <a href="https://www.instagram.com/eh_connard/"><img src="public/images/icon.png" alt="Instagram">eh_connard</a>
+            <a href="https://www.instagram.com/lea_bnl_/"><img src="public/images/icon.png" alt="Instagram" class=image2>lea_bnl</a>
+            <a href="https://www.instagram.com/eh_connard/"><img src="public/images/icon.png" alt="Instagram" class=image3>eh_connard</a>
         </div>
     </footer>
-</body>
+
 </html>
