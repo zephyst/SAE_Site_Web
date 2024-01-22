@@ -54,7 +54,7 @@
                     et surtout j'aime m'amuser !</p>
                 <p>Pour finir, j'ai grandi dans l'informatique, une autre de mes passions ! </p>
             </div>
-            <div id="pp"><img src="public/images/music.avif" alt="musique" id="music"></div>
+            <div id="music"><img src="public/images/music.avif" alt="musique" class="music"></div>
         </section>
     </main>
 

@@ -80,6 +80,10 @@ p {
     margin-left: 5%;
 }
 
+.music{
+    width: 60%;
+}
+
 div {
     display: inline-block;
     text-align: center;
@@ -88,10 +92,6 @@ div {
 
 img {
     border-radius: 15%;
-}
-
-#music {
-    width: 120%;
 }
 
 footer {
