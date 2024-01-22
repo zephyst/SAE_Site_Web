@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="liteyastyle.css">
+    <link rel="stylesheet" href="public/css/liteyastyle.css">
 </head>
 
 <body>
 
     <section id="present">
-        <img src="PhotoLiteyacut.jpg" alt="Photo de Litéya">
+        <img src="public/images/PhotoLiteyacut.jpg" alt="Photo de Litéya">
         <div id="desc">
             <h1>Qui suis-je?</h1>
             <p>Enchanté, moi c'est Litéya et j'ai 18 ans.
@@ -26,11 +26,11 @@
     </section>
 
     <section>
-        <img id="panc" src="Dessin/DessinPancarte.png"
+        <img id="panc" src="public/images/DessinPancarte.png"
     </section>
 
     <section>
-        <img id="tel" src="Dessin/DessinTelephone.png">
+        <img id="tel" src="public/images/DessinTelephone.png">
     </section>
 
     <section>
@@ -44,19 +44,19 @@
             </p>
         </div>
         <div class="capture">
-            <img src="ExempleInsta.png" alt="capture d'écran de notre profil Instagram">
+            <img src="public/images/ExempleInsta.png" alt="capture d'écran de notre profil Instagram">
             <h5>Instagram</h5>
             <p class="pseudo"><a href="https://www.instagram.com/eh_connard/">@eh_connard</a></p>
         </div>
 
         <div class="capture">
-            <img src="ExempleTiktok.png" alt="capture d'écran de notre profil Tiktok">
+            <img src="public/images/ExempleTiktok.png" alt="capture d'écran de notre profil Tiktok">
             <h5>TikTok</h5>
             <p class="pseudo"><a href="https://www.tiktok.com/@eh_connard?_t=8hva9LT0cTI&_r=1">@eh_connard</a></p>
         </div>
 
         <div class="capture">
-            <img src="ExempleTweet.jpg" alt="capture d'écran de notre profil Twitter">
+            <img src="public/images/ExempleTweet.jpg" alt="capture d'écran de notre profil Twitter">
             <h5>Twitter</h5>
             <p class="pseudo"><a href="https://twitter.com/eh_connard">@eh_connard</a></p>
         </div>
@@ -72,11 +72,11 @@
     </section>
 
     <section>
-        <img id="sis" src="Dessin/DessinSisterhood.png">
+        <img id="sis" src="public/images/DessinSisterhood.png">
     </section>
 
     <section>
-        <img id="bul" src="Dessin/DessinBulle.png">
+        <img id="bul" src="public/images/DessinBulle.png">
     </section>
 
     <section>
