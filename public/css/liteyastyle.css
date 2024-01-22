@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap');
+@font-face {
+    font-family: Marianaxxe;
+    src: url("MarianaxxeV4.ttf");
+}
+
+*{ 
+    margin: O;
+    padding: O;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFFCF1 ;
+}
+
+img {
+    height: 215px;
+    margin: 80px 80px 0 80px;
+    vertical-align: top;
+}
+
+
+h1{
+    text-align: center;
+    font-family: Marianaxxe;
+    font-size: 40px;
+}
+
+#desc{
+    display: inline-block; 
+    width:44%;
+    text-align:center;
+    font-family:Poppins;
+    vertical-align: top;
+}
+
+h2{
+    font-family: Marianaxxe;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 7%;
+    padding-right: 3%;
+    padding-bottom: 5%;
+}
+
+.capture{
+    display: inline-block;
+    text-align: center;
+    padding: 2%;
+}
+
+h5{
+    font-family:Poppins;
+    font-size: 15px;
+    padding-left: 13%;
+}
+
+p{
+    font-family:Poppins;
+}
+
+.pseudo{
+    font-family:Poppins;
+    font-size: 13px;
+    padding-left: 13%;
+}
+
+a:hover {
+    color: rgb(176, 100, 0);
+  }
+
+h3{
+    font-family: Marianaxxe;
+    font-size: 30px; 
+}
+
+li{
+    font-family:Poppins;
+    text-decoration:none;
+    width:15%;
+    text-align:center;
+    list-style-type: none;
+    padding: 0% 15% 0% 15%;
+    display: inline-block;
+}
+
+a{
+    list-style-type: none;
+    color: black;
+}
+
+#travail{
+    width: 60%;
+    text-align:center;
+    margin: auto;
+    padding: 3%;
+    background-image: url(Feuille\ longue\ scotch\ haut.png) ;
+    background-size: contain;
+
+}
+
+#travail p{
+    padding: 10px 0px 0px 0px;
+}
+
+#present{
+    margin: auto;
+    padding-left: 15%;
+}
+
+.capture img{
+  height: 60vh;
+  padding-left: 10% ;
+
+}
+
+#engag{
+    text-align: center;
+    width: 50% ;
+    margin: 2% 0% 10% 23%;
+}
+
+#panc{
+    float: left;
+}
+
+#tel{
+float: right;
+height: 150px
+}
+
+#sis{
+    height: 150px;
+    margin-bottom: 15%;
+}
+
+#bul{
+
+}
