@@ -3,7 +3,7 @@
     <li id="slam" class="proj">
         <figure>
             <figcaption><strong>- Notre slam : </strong></figcaption>
-            <audio controls src="">
+            <audio controls src="public/sounds/Slam.wav" id="audio">
                 <a href=""> Download audio </a>
             </audio>
         </figure>
@@ -11,26 +11,18 @@
             dans la rue et qui finit par se faire emm*rder par des conn*rds.</p>
     </li>
     <li id="video" class="proj">
-        <p id="title"><strong>- Voir notre vidéo de la campagne de sensibilisation : </strong>Eh Connard !</p>
-        <p>
-            <video width="1440" height="720" controls>
-                <source src=”http://techslides.com/demos/sample-videos/small.ogv” type=video/ogg>
-                <source src="/build/videos/arcnet.io(7-sec).mp4" type=video/mp4>
-            </video>
-        </p>
+        <p id="title"><strong>Notre campagne de sensibilisation : </strong>Eh Connard !</p>
+        <iframe width="585" height="300" src="public/images/Spot_Sensibilisation_EhConnard.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            
         <div id="short-sheet">
             <p id="text2">Et si on prenait conscience de ce que l’on subit et qu’on faisait le choix de s’entraider et de mener
-                une révolte placée sous le signe de la sororité ?</p>
-            <p>La miss, la poupée, la jolie fille, la demoiselle, bref : </p>
+                une révolte placée sous le signe de la sororité ?<br>La miss, la poupée, la jolie fille, la demoiselle, bref : </p>
             <p><strong id="gonz">LES GONZESSES SONT DE SORTIES !!!</strong></p>
         </div>
     </li>
-    
-    <li id="lycee" class="proj"><strong>- Visiter des lycées de France</strong> pour sensibiliser les jeunes au harcèlement de rue, répondre à leurs questions, etc…
-        <p>Eduquer c’est la meilleure façon de faire bouger les choses, apprendre aux jeunes que certains
-            comportements interiorisés ou banalisés, devraient être condamnés.
-            C’est pour ça que nous, les gonzesses, avons fait le choix de revêtir nos uniformes d’éducatrices
-            afin d’agir pour le bien de toutes. </p>
+    <li id="lycee" class="proj"><strong>Visiter des lycées de France</strong> pour sensibiliser les jeunes au harcèlement de rue, répondre à leurs questions, etc…
+        <p>Eduquer c’est la meilleure façon de faire bouger les choses, apprendre aux jeunes que certains comportements interiorisés ou banalisés, devraient être condamnés.<br>C’est pour ça que nous, les gonzesses, avons fait le choix de revêtir nos uniformes d’éducatrices afin d’agir pour le bien de toutes. </p>
     </li>
 </ul>
 <h3>Soutenez nous avec le hashtag <strong>#EhConnard</strong> !</h3>

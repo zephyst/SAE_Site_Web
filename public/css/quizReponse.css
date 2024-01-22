@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Marianaxxe;
+    src: url('../font/MarianaxxeV4.ttf');
+}
+@font-face {
+    font-family: Poppins;
+    src: url("../font/Poppins-Regular.ttf");
+}
+
+h1  {
+    font-family: Marianaxxe;
+    font-size: 5em;
+}
+
+.finir {
+    padding: 1.5vh 1.5vw;
+    background-color: burlywood;
+    border-radius: 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+main {
+    height: 80%;
+
+    display: flex;
+
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 10vh;
+}
+
+body {
+    overflow: hidden;
+}

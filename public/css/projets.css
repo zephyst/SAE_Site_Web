@@ -64,6 +64,10 @@ video strong {
     padding-left: 4vw;
 }
 
+figcaption{
+    margin-bottom: 15px;
+}
+
 #slam strong {
     font-family: Marianaxxe;
     font-weight: bolder;
@@ -75,7 +79,6 @@ video strong {
     margin-top: 8vh;
     width: 50%;
 }
-
 
 #short-sheet {
     background-image: url(../images/Feuille\ longue\ scotch\ haut.png);
@@ -112,4 +115,8 @@ h3 {
 
 #title {
     padding-right: 14vw;
+}
+
+#audio{
+    margin-top: 10%;
 }

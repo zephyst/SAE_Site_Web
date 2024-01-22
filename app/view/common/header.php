@@ -2,9 +2,9 @@
 
 $logo = 'LOGOOFFPOURDEVRAI.png';
 $header = [
-    'Nous contacter' => 'contact.php',
-    'Boutique' => 'boutique.php',
     'Nos projets' => 'page_projet.php',
+    'Boutique' => 'boutique.php',
+    'Nous contacter' => 'contact.php',
     'Qui sommes nous ?' => 'trombi.php',
 ];
 

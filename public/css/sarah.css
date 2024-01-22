@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Marianaxxe;
+    src: url('../font/MarianaxxeV4.ttf');
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url("../font/Poppins-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(40, 210, 200);
+}
+
+header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+header img {
+    height: 80px;
+    margin-left: 8vw;
+}
+
+header ul {
+    list-style-type: none;
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header li {
+    margin-right: 10%;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 220%;
+    font-family: 'Marianaxxe';
+}
+
+
+
+
+
+body {
+    background-color: rgb(25, 0, 40);
+}
+
+h1 {
+    font-family: 'Marianaxxe';
+    font-size: 300%;
+    text-align: center;
+}
+
+#title {
+    padding-top: 5%;
+}
+
+p {
+    font-family: 'Poppins';
+    font-size: 120%;
+}
+
+#desc {
+    width: 50%;
+    padding: 5%;
+}
+
+#pp {
+    width: 20%;
+    padding: 5%;
+    margin-left: 5%;
+}
+
+#like {
+    margin-left: 10%;
+    width: 50%;
+}
+
+#child {
+    width: 30%;
+    margin-left: 5%;
+}
+
+div {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 5%;
+}
+
+img {
+    border-radius: 15%;
+}
+
+footer{
+    display: flex;
+    font-family: 'poppins';
+}

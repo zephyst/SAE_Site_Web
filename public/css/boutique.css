@@ -17,64 +17,68 @@
 
 main {
     font-family: "Poppins";
-    margin: auto;
-    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    margin: 10vh 0;
 }
 
-main img {
-    border: 1px solid black;
-    height: 400px;
-    width: 400px;
-    padding: 20px;
-    margin: 20px 0 20px 0;
-}
+
 
 .article {
-    width: 35%;
-    float: right;
-    margin: 16vh 5vw 0 0;
+    margin-left: 15vw;
+    display: flex;
+    gap: 3vw;
+    width: fit-content;
+    min-width: 70vw;
+}
+
+.article img {
+    width: 30vw;
+    height: 30vw;
+    margin: 0;
+    border: solid 5px burlywood;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+
+    margin-top: 6vh;
+}
+
+.selecteurs {
+    display: flex;
+    gap: 1vw;
 }
 
 select {
-    width: 23%;
-    height: 7%;
-    background-color: burlywood;
+    background-color: #FFFCF1;
     color: black;
-    font-family: Marianaxxe;
     font-weight: bolder;
-    font-size: 1.899em;
-    border: 4px double black;
+    border: none;
     text-align: center;
-}
-
-.article:first-of-type select[name="QuantiteTShirt"] {
-    position: relative;
-    left: 13vh;
-    bottom: 48.45px;
+    font-family: Poppins, sans-serif;
+    padding: 7px;
 }
 
 select option {
     font-weight: bolder;
 }
 
-.prix {
-    font-weight: bolder;
-    font-size: 1.5em;
-}
-
-.nom {
-    border: 2px solid black;
-    width: 25vw;
-    margin-bottom: 8px;
-    background-color: burlywood;
-    text-align: center;
-}
-
-.description {
-    width: 130%;
-}
-
 select:hover {
     transform: scale(1.025);
     transition: all 0.25s ease;
+    border:  1px solid black;
+}
+
+.prix {
+    font-weight: bold;
+}
+
+.nom {
+    font-size: 1.8em;
+    font-weight: bold;
+    font-family: Marianaxxe;
 }
