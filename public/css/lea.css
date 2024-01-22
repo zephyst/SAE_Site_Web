@@ -72,108 +72,118 @@ h3 {
 
 }
 
-.container {
+.container div{
     display: flex;
     align-items: center;
     position: relative;
-    max-width: 1200px;
-    margin-left: 150px;
-    margin-right: 20px;
-    padding: 25px;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;                                
     backdrop-filter: blur(15px);
     background-color: rgba(255, 255, 255, 0.283);
     border-radius: 20px;
-   
-    
+
 }
 
-.box1{
-    margin-top: 40px;
-    padding: 10px;
-    background-color: #ff59002f;
-    border-radius: 40px;
-    align-items: center;
-    width: 300px;
-    padding: 20px;
-    height: 300px;
-    margin-bottom: 900px;
 
-    
+.box1 div{
+    background-color: #ff59002f;
+    border-radius: 60px;
+    display: inline-block;
+    width: 350px;
+    padding: 20px;
 }
 
 .box1 p{
-    margin-top: 3px;
-    width: 300px;;
-    height: 300px;
+    margin-top: 10px;
+    width: 350px;
+    height: 200px;
 
 }
 
 #camescope{
-    display: flex;
-    flex-direction: column;
-    width:500px;
-    text-decoration: none;
-    color: white;
-    margin-bottom: 850px;
-    margin-left: 300px
+    display: inline-block;
+    font-family:"Poppins";
+    color: #0f0f0f;
+    font-size: 10px;
     
 }
 
+#camescope img{
+    border-radius: 20px;
+    width: 475px;
+    display: inline-block;
+}
+
 #camescope:hover{
-    transform: scale(110%);
+    transform: scale(120%);
     transition-duration: 0.5s;
 }
 
 
-.box2{
-    margin-top: 40px;
-    padding: 10px;
+.box2 div{
     background-color: #ff59002f;
-    border-radius: 40px;
-    align-items: center;
+    border-radius: 60px;
+    display: inline-block;
     width: 300px;
     padding: 20px;
-    height: 300px;
-    margin-bottom: 200px;
-    margin-left: -300px;
+    margin-left: 700px;
+
 }
 
 .box2 p{
-    margin-top: 3px;
+    margin-top: 10px;
     width: 300px;
-    height: 300px;
+    height: 250px;
 }
 
 
 #story{
     width: 5px;
-    height: 120px;
+    height: 50px;
     margin-left: -1100px;
     margin-bottom: 200px;
-    border-radius: 40px;
+    font-family:"Poppins";
+    font-size: 10px;
+    
     
 }
 
+#story img{
+    display: inline-block;
+    border-radius: 50px;
+    height: 140px;
+    margin-left: -1040px;
+    margin-top: 50px;
+}
+
 #story:hover{
-    transform: scale(110%);
+    transform: scale(105%);
     transition-duration: 0.5s;
 }
 
 
-.box3{
-    margin-top: 600px;
-    padding: 0px;
+.box3 div{
     background-color: #ff59002f;
-    border-radius: 40px;
-    align-items: center;
-    width: 300px;
+    border-radius: 60px;
+    display: inline-block;
     padding: 20px;
-    height: 300px;
-    margin-bottom: -0px;
-    margin-left: 0px;
+    width: 600px;
+
+ 
 }
 
+#boutique img{
+    display: inline-block;
+    width: 350px;
 
+} 
+
+#boutique:hover{
+    transform: scale(120%);
+    transition-duration: 0.5s;
+}
+       
 
 .slogan{
     position: absolute;
@@ -185,7 +195,7 @@ h3 {
 }
 footer {
     text-align: center;
-    padding: 25px;
+    padding: 2px;
     margin-top: 130px;
     background-color: #faf8f867;
     color: #fff;
@@ -193,7 +203,7 @@ footer {
 }
 
 .social-icons a {
-    margin: 150px;
+    text-align: center;
     text-decoration: none;
     color: #111111;
     transition: color 0.3s ease-in-out;
