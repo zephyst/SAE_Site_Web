@@ -80,20 +80,15 @@ p {
 
 #like {
     margin-left: 10%;
-    width: 50%;
+    width: 100%;
 }
-
-#child {
-    width: 30%;
-    margin-left: 5%;
-}
-
+/*
 div {
     display: inline-block;
     text-align: center;
     vertical-align: middle;
     margin-top: 5%;
-}
+}*/
 
 img {
     border-radius: 15%;
@@ -104,19 +99,12 @@ footer {
     background-color: rgba(0, 0, 0, 0.2);
     padding: 1%;
     font-family: 'poppins';
+    bottom: 0;
 }
 
-#reseaux {
+#reseaux, #connard {
     display: inline-block;
-}
-
-
-/*#footer {
-    display: inline-block;
+    margin-left: 10%;
+    margin-right: 10%;
     vertical-align: top;
 }
-
-.footer {
-    display: flex;
-    font-family: 'poppins';
-}*/

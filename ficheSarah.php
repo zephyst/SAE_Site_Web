@@ -14,13 +14,13 @@
     </a>
     <ul>
         <li>
-            <a href="contact.php"> Nous contacter </a>
+            <a href="page_projet.php"> Nos projets </a>
         </li>
         <li>
             <a href="boutique.php"> Boutique </a>
         </li>
         <li>
-            <a href="page_projet.php"> Nos projets </a>
+            <a href="contact.php"> Nous contacter </a>
         </li>
         <li>
             <a href="trombi.php"> Qui sommes nous ? </a>
@@ -47,50 +47,57 @@
         <section>
             <div id="like">
                 <h1>Donc, qu'est-ce que j'aime ? </h1>
-                <p>Mes couleurs préférées sont le bleu et le violet, jouer à des jeux de société et sortir pour faire du vélo</p>
+                <p>J'aime la musique plus que tout, si je pouvais j'en écouterais en permanence, j'aime aussi faire du vélo avec ma famille et jouer a des jeux de société avec eux, 
+                    j'aime aussi les jeux vidéos même si le niveau ne suit pas XD, j'aime sortir avec ma meilleure amie pour faire toute sorte de choses mais aussi pour aller 
+                    chez McDonald's, une autre de mes passions</p>
             </div>
-            <div id="child"><img src="" alt="caca"></div>
         </section>
     </main>
     <footer>
-        <ul id="reseaux">
-            <li class="connard">Les réseaux Eh Connard ! : </li>
-            <li class="connard">
-                <a href="https://www.instagram.com/eh_connard/">
-                    <img src="public/pictogramme/instagram.svg" alt="Logo Instagram" style="filter: invert(100%) sepia(5%) saturate(7500%) hue-rotate(302deg) brightness(114%) contrast(102%);">
-                    Instagram
-                </a>
-            </li>
-            <li class="connard">
-                <a href="https://twitter.com/eh_connard">
-                    <img src="public/pictogramme/twitter-x.svg" alt="Logo Twitter" style="filter: invert(100%) sepia(5%) saturate(7500%) hue-rotate(302deg) brightness(114%) contrast(102%);">
-                    Twitter/X
-                </a>
-            </li>
-            <li class="connard">
-                <a href="https://www.tiktok.com/@eh_connard?_t=8hva9LT0cTI&_r=1">
-                    <img src="public/pictogramme/tiktok.svg" alt="Logo TikTok" style="filter: invert(100%) sepia(5%) saturate(7500%) hue-rotate(302deg) brightness(114%) contrast(102%);">
-                    TikTok
-                </a>
-            </li>
-        </ul>
-
-        <ul id="reseaux">
-            <li class="moi">Mes réseaux : </li>
-            <li class="moi">
-                <a href="https://www.instagram.com/iloveu_3000__/">
-                    <img src="public/pictogramme/instagram.svg" alt="Logo Instagram" style="filter: invert(100%) sepia(5%) saturate(7500%) hue-rotate(302deg) brightness(114%) contrast(102%);">
-                    Instagram
-                </a>
-            </li>
-            <li class="moi">
-                <a href="https://www.instagram.com/iloveu_3000__/">
-                    <img src="public/pictogramme/twitter-x.svg" alt="Logo Twitter" style="filter: invert(100%) sepia(5%) saturate(7500%) hue-rotate(302deg) brightness(114%) contrast(102%);">
-                    Twitter/X
-                </a>
-            </li>
-        </ul>
+        <div>
     </footer>
+    <!--<footer>
+        <div id="reseaux">
+            <ul>
+                <li class="connard">Les réseaux Eh Connard ! : </li>
+                <li class="connard">
+                    <a href="https://www.instagram.com/eh_connard/">
+                        <img src="public/pictogramme/instagram.svg" alt="Logo Instagram" style="filter: invert(100%) sepia(5%) saturate(7500%) hue-rotate(302deg) brightness(114%) contrast(102%);">
+                        Instagram
+                    </a>
+                </li>
+                <li class="connard">
+                    <a href="https://twitter.com/eh_connard">
+                        <img src="public/pictogramme/twitter-x.svg" alt="Logo Twitter" style="filter: invert(100%) sepia(5%) saturate(7500%) hue-rotate(302deg) brightness(114%) contrast(102%);">
+                        Twitter/X
+                    </a>
+                </li>
+                <li class="connard">
+                    <a href="https://www.tiktok.com/@eh_connard?_t=8hva9LT0cTI&_r=1">
+                        <img src="public/pictogramme/tiktok.svg" alt="Logo TikTok" style="filter: invert(100%) sepia(5%) saturate(7500%) hue-rotate(302deg) brightness(114%) contrast(102%);">
+                        TikTok
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="connard">
+            <ul>
+                <li class="moi">Mes réseaux : </li>
+                <li class="moi">
+                    <a href="https://www.instagram.com/iloveu_3000__/">
+                        <img src="public/pictogramme/instagram.svg" alt="Logo Instagram" style="filter: invert(100%) sepia(5%) saturate(7500%) hue-rotate(302deg) brightness(114%) contrast(102%);">
+                        Instagram
+                    </a>
+                </li>
+                <li class="moi">
+                    <a href="https://www.instagram.com/iloveu_3000__/">
+                        <img src="public/pictogramme/twitter-x.svg" alt="Logo Twitter" style="filter: invert(100%) sepia(5%) saturate(7500%) hue-rotate(302deg) brightness(114%) contrast(102%);">
+                        Twitter/X
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>-->
 </body>
 
 </html>
