@@ -9,7 +9,7 @@
 </head>
 
 <header>
-    <a href="quizz.php">
+    <a href="quiz.php">
         <img src="public/images/LOGOOFFPOURDEVRAI.png">
     </a>
     <ul>
@@ -40,64 +40,65 @@
                     Cela nous a permis de fournir de l'aide pour des victimes de harcèlement de rue, ainsi que nous faire connaître un peu plus sur les réseaux sociaux.
                     Si vous souhaitez nous contacter pour recevoir de l'aide, vous pouvez le faire dans la rubrique "Nous contacter" sur notre site.
                     Si vous voulez vous engager avec nous dans ce combat, vous pouvez nous faire un don sur notre
-                    <a href="">cagnotte</a>, tous les montants sont acceptés et chaque centime compte ! Faites des dons !
+                    <a href="">cagnotte</a>, tous les montants sont acceptés et chaque centime compte !
                 </p>
+                <p>Faites des dons !</p>
             </div>
         </section>
         <section>
             <div id="like">
                 <h1>Donc, qu'est-ce que j'aime ? </h1>
-                <p>J'aime la musique plus que tout, si je pouvais j'en écouterais en permanence, j'aime aussi faire du vélo avec ma famille et jouer a des jeux de société avec eux, 
-                    j'aime aussi les jeux vidéos même si le niveau ne suit pas XD, j'aime sortir avec ma meilleure amie pour faire toute sorte de choses mais aussi pour aller 
-                    chez McDonald's, une autre de mes passions</p>
+                <p>En ce qui concerne mes passions, j'adore la musique et j'écoute quasi tous les genres de musiques, si je pouvais j'en écouterais en permanence,
+                    j'aime faire du vélo et jouer a des jeux de société avec ma famille, j'aime aussi les jeux vidéos même si mon niveau n'est pas très bon en général XD.</p>
+                <p>En ce qui concerne ce que j'aime en général, j'aime le montage photo/vidéo, le codage, chanter, voyager, voir des gens mais aussi rester seule de temps en temps,
+                    et surtout j'aime m'amuser !</p>
+                <p>Pour finir, j'ai grandi dans l'informatique, une autre de mes passions ! </p>
             </div>
+            <div id="pp"><img src="public/images/music.avif" alt="musique" id="music"></div>
         </section>
     </main>
+
     <footer>
-        <div>
-    </footer>
-    <!--<footer>
-        <div id="reseaux">
+        <div id="reseaux" class="connard">
             <ul>
-                <li class="connard">Les réseaux Eh Connard ! : </li>
-                <li class="connard">
+                <li>Nos réseaux : </li>
+                <li>
                     <a href="https://www.instagram.com/eh_connard/">
-                        <img src="public/pictogramme/instagram.svg" alt="Logo Instagram" style="filter: invert(100%) sepia(5%) saturate(7500%) hue-rotate(302deg) brightness(114%) contrast(102%);">
+                        <img src="public/pictogramme/instagram.svg" style="filter: invert(100%)">
                         Instagram
                     </a>
                 </li>
-                <li class="connard">
+                <li>
                     <a href="https://twitter.com/eh_connard">
-                        <img src="public/pictogramme/twitter-x.svg" alt="Logo Twitter" style="filter: invert(100%) sepia(5%) saturate(7500%) hue-rotate(302deg) brightness(114%) contrast(102%);">
-                        Twitter/X
-                    </a>
+                        <img src="public/pictogramme/twitter-x.svg" style="filter: invert(100%)">
+                        Twitter/X </a>
                 </li>
-                <li class="connard">
+                <li>
                     <a href="https://www.tiktok.com/@eh_connard?_t=8hva9LT0cTI&_r=1">
-                        <img src="public/pictogramme/tiktok.svg" alt="Logo TikTok" style="filter: invert(100%) sepia(5%) saturate(7500%) hue-rotate(302deg) brightness(114%) contrast(102%);">
-                        TikTok
-                    </a>
+                        <img src="public/pictogramme/tiktok.svg" style="filter: invert(100%)">
+                        TikTok </a>
                 </li>
             </ul>
         </div>
-        <div id="connard">
+
+        <a href="quiz.php"><img id="footer" src="public/images/LOGOOFFPOURDEVRAI.png"></a>
+
+        <div id="reseaux" class="moi">
             <ul>
-                <li class="moi">Mes réseaux : </li>
-                <li class="moi">
+                <li>Mes réseaux personels : </li>
+                <li>
                     <a href="https://www.instagram.com/iloveu_3000__/">
-                        <img src="public/pictogramme/instagram.svg" alt="Logo Instagram" style="filter: invert(100%) sepia(5%) saturate(7500%) hue-rotate(302deg) brightness(114%) contrast(102%);">
-                        Instagram
-                    </a>
+                        <img src="public/pictogramme/instagram.svg" style="filter: invert(100%)">
+                        Instagram </a>
                 </li>
-                <li class="moi">
-                    <a href="https://www.instagram.com/iloveu_3000__/">
-                        <img src="public/pictogramme/twitter-x.svg" alt="Logo Twitter" style="filter: invert(100%) sepia(5%) saturate(7500%) hue-rotate(302deg) brightness(114%) contrast(102%);">
-                        Twitter/X
-                    </a>
+                <li>
+                    <a href="https://twitter.com/SarAliexpress">
+                        <img src="public/pictogramme/twitter-x.svg" style="filter: invert(100%)">
+                        Twitter/X </a>
                 </li>
             </ul>
         </div>
-    </footer>-->
+    </footer>
 </body>
 
 </html>
