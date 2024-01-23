@@ -205,33 +205,24 @@ footer {
     color: #fff;
     z-index: 2;
     display: inline-flex;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 460px;
     padding-right: 460px;
     
 }
 
-.social-icons1 a {
+.social-icons a {
     text-decoration: none;
     color: #111111;
     transition: color 0.2s ease-in-out;
     padding-right: 70px;
     padding-left: 70px;
 }
-.social-icons1 a:hover {
+.social-icons a:hover {
     color: #BE4B1D;
 }
 
-.social-icons2 a {
-    text-decoration: none;
-    color: #111111;
-    transition: color 0.2s ease-in-out;
-}
-
-.social-icons2 a:hover {
-    color: #BE4B1D;
-}
 .image2{
     height: 25px;
 }
@@ -240,6 +231,3 @@ footer {
     height: 25px;
 }
 
-.social-icons1 {
-    margin-left: 100px;
-}
