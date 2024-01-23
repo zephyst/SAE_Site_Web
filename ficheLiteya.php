@@ -8,7 +8,6 @@
 </head>
 
 <body>
-
     <section id="present">
         <img src="public/images/PhotoLiteyacut.jpg" alt="Photo de Litéya">
         <div id="desc">
@@ -25,16 +24,12 @@
         </div>
     </section>
 
-    <section>
-        <img id="panc" src="public/images/DessinPancarte.png"
-    </section>
-
-    <section>
+    <section id="metier">
+        <img id="panc" src="public/images/DessinPancarte.png">
+        <h2>Mon metier</h2>
         <img id="tel" src="public/images/DessinTelephone.png">
     </section>
-
     <section>
-        <h2>Mon metier</h2>
         <div id="travail">
             <p>Moi c'est la gonzesse community manager!
                 Tenir à jour nos différents profils sur les réseaux sociaux en postant des photos, des vidéos ou même
@@ -71,13 +66,11 @@
         </div>
     </section>
 
-    <section>
+    <section id="bulsis">
         <img id="sis" src="public/images/DessinSisterhood.png">
-    </section>
-
-    <section>
         <img id="bul" src="public/images/DessinBulle.png">
     </section>
+
 
     <section>
         <h3>Comment me joindre:</h3>
