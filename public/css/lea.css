@@ -46,6 +46,10 @@ a{
     color: #0f0f0f;
 }  
 
+a:hover {
+    color: #BE4B1D;
+}
+
 
 .titre{
     font-family: "Marianaxxe";
