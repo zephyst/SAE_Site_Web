@@ -78,7 +78,7 @@ h3 {
     position: relative;
     max-width: 1100px;
     margin: auto;
-    padding: 20px;                                
+    padding: 25px;                                
     backdrop-filter: blur(15px);
     background-color: rgba(255, 255, 255, 0.283);
     border-radius: 20px;
@@ -116,7 +116,7 @@ h3 {
 }
 
 #camescope:hover{
-    transform: scale(120%);
+    transform: scale(110%);
     transition-duration: 0.5s;
 }
 
@@ -180,7 +180,7 @@ h3 {
 } 
 
 #boutique:hover{
-    transform: scale(120%);
+    transform: scale(110%);
     transition-duration: 0.5s;
 }
        
@@ -200,23 +200,43 @@ footer {
     background-color: #faf8f867;
     color: #fff;
     z-index: 2;
+    display: inline-flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 460px;
+    padding-right: 460px;
+    
 }
 
-.social-icons a {
-    text-align: center;
+.social-icons1 a {
     text-decoration: none;
     color: #111111;
     transition: color 0.2s ease-in-out;
-
+    padding-right: 70px;
+    padding-left: 70px;
 }
-.social-icons a:hover {
+.social-icons1 a:hover {
     color: #BE4B1D;
 }
 
+.social-icons2 a {
+    text-decoration: none;
+    color: #111111;
+    transition: color 0.2s ease-in-out;
+    padding-left: ;
+}
+
+.social-icons2 a:hover {
+    color: #BE4B1D;
+}
 .image2{
     height: 25px;
 }
 
 .image3{
     height: 25px;
+}
+
+.social-icons1 {
+    margin-left: 100px;
 }
