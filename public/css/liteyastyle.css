@@ -39,9 +39,7 @@ h2{
     font-family: Marianaxxe;
     font-size: 40px;
     text-align: center;
-    padding-top: 7%;
-    padding-right: 3%;
-    padding-bottom: 5%;
+    width: fit-content;
 }
 
 .capture{
@@ -131,10 +129,10 @@ height: 150px
 }
 
 #sis{
-    height: 150px;
-    margin-bottom: 15%;
+    display: inline-block;
 }
 
-#bul{
-
+#bulsis {
+ margin: auto;
+ width: fit-content;
 }
