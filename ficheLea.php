@@ -78,10 +78,9 @@
 </body>
 
     <footer>
-        <div class="social-icons1">
+        <div class="social-icons">
             <a href="https://www.instagram.com/lea_bnl_/"><img src="public/images/icon.png" alt="Instagram" class=image2>  lea_bnl</a>
-        </div>
-         <div class="social-icons1">
+
             <a href="https://www.instagram.com/eh_connard/"><img src="public/images/icon.png" alt="Instagram" class=image3>  eh_connard</a>
         </div>
     </footer>
