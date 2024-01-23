@@ -18,7 +18,7 @@ p {
     font-family: "Poppins";
 }
 
-img {
+section img {
     height: 215px;
     vertical-align: top;
 }
@@ -66,7 +66,7 @@ a:hover {
     color: rgb(176, 100, 0);
 }
 
-li{
+#joindre li{
     font-family:"Poppins";
     text-decoration:none;
     width:15%;
@@ -98,6 +98,7 @@ a{
 #present{
     margin: auto;
     padding-left: 15%;
+    margin-top: 5%;
 }
 
 #engag{

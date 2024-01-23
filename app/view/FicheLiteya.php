@@ -75,7 +75,7 @@
     </section>
 
 
-    <section>
+    <section id="joindre">
         <h3>Comment me joindre:</h3>
         <ul>
             <li><a href="https://www.instagram.com/">@liteyamasspro</a></li>
