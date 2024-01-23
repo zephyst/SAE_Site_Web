@@ -5,8 +5,8 @@
 }
 
 *{ 
-    margin: O;
-    padding: O;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -14,9 +14,12 @@ body{
     background-color: #FFFCF1 ;
 }
 
+p {
+    font-family: "Poppins";
+}
+
 img {
     height: 215px;
-    margin: 80px 80px 0 80px;
     vertical-align: top;
 }
 
@@ -35,46 +38,36 @@ h1{
     vertical-align: top;
 }
 
-h2{
-    font-family: Marianaxxe;
-    font-size: 40px;
+#captures {
     text-align: center;
-    width: fit-content;
 }
 
 .capture{
     display: inline-block;
     text-align: center;
-    padding: 2%;
+    margin: 2% 5%;
+}
+
+.capture img{
+    height: 60vh;
 }
 
 h5{
-    font-family:Poppins;
+    font-family:"Poppins";
     font-size: 15px;
-    padding-left: 13%;
-}
-
-p{
-    font-family:Poppins;
 }
 
 .pseudo{
-    font-family:Poppins;
+    font-family:"Poppins";
     font-size: 13px;
-    padding-left: 13%;
 }
 
 a:hover {
     color: rgb(176, 100, 0);
-  }
-
-h3{
-    font-family: Marianaxxe;
-    font-size: 30px; 
 }
 
 li{
-    font-family:Poppins;
+    font-family:"Poppins";
     text-decoration:none;
     width:15%;
     text-align:center;
@@ -99,18 +92,12 @@ a{
 }
 
 #travail p{
-    padding: 10px 0px 0px 0px;
+    padding-top: 10px;
 }
 
 #present{
     margin: auto;
     padding-left: 15%;
-}
-
-.capture img{
-  height: 60vh;
-  padding-left: 10% ;
-
 }
 
 #engag{
@@ -119,20 +106,44 @@ a{
     margin: 2% 0% 10% 23%;
 }
 
-#panc{
-    float: left;
-}
-
-#tel{
-float: right;
-height: 150px
-}
-
-#sis{
+#sis, #bul {
     display: inline-block;
+    margin-top: 0;
 }
 
 #bulsis {
- margin: auto;
- width: fit-content;
+     margin: auto;
+     width: fit-content;
+}
+
+h2 {
+    text-align: center;
+    font-family: Marianaxxe;
+    font-size: 40px;
+}
+
+#metier h2 {
+    width: fit-content;
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 0 25%;
+}
+
+#panc, #tel{
+    display: inline-block;
+    margin: 0;
+}
+
+#metier {
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+
+h3 {
+    margin-top: 5%;
+    text-align: center;
+    font-family: Marianaxxe;
+    font-size: 30px;
 }
