@@ -49,7 +49,7 @@
           <ul>
              <li>J'aime beaucoup le maquillage, il y a un univers où j'en aurai fait mon métier je pense.</li>
             <li>J'aime TOUT organiser. C'est bien pour ça que je veux travailler dans l'évenementiel. Par exemple, quand je pars en vacances avec des amis je vais crée un diaporama sur notre voyage.</li>
-            <li>J'aime les souvenirs, les photos. Etant quelqu'un de nostalgique j'aime garder des souvenirs. J'en reviens à faire des vidéos souvenirs annuelles à chaque mois décembre. </li>
+            <li>J'aime les souvenirs, les photos. Etant quelqu'un de nostalgique j'aime garder des souvenirs. J'en reviens à faire des vidéos souvenirs annuelles à chaque mois de décembre. </li>
     
           </ul>
       </p>

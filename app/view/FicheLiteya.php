@@ -38,6 +38,9 @@
                 jamais de remettre à leur place les vieux mecs qui viennent (aussi) nous saouler dans le monde virtuel.
             </p>
         </div>
+    </section>
+
+    <section id="captures">
         <div class="capture">
             <img src="public/images/ExempleInsta.png" alt="capture d'écran de notre profil Instagram">
             <h5>Instagram</h5>
