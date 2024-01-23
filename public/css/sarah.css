@@ -81,7 +81,9 @@ p {
 }
 
 .music{
-    width: 60%;
+    width: 380px;
+    padding: 5%;
+    margin-left: 5%;
 }
 
 div {

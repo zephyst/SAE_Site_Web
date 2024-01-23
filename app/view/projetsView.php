@@ -20,7 +20,8 @@
 
     <div class="topper"></div>
     <div class="videoContent">
-    <iframe width="532" height="300" src="public/images/Spot_Sensibilisation_EhConnard.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="532" height="300" src="public/images/Spot_Sensibilisation_EhConnard.mp4" title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <div id="textVideo">
             <p>
                 Et si on prenait conscience de ce que l’on subit et qu’on faisait le choix de s’entraider et de mener
