@@ -34,18 +34,17 @@
     </section>
 </div>
 
-<footer>
-    <div id="contact">
-        <div>
-            <h4>Mes réseaux personnels:</h4>
-            <ul>
-                <li><img src="public/pictogramme/twitter-x.svg"><a href="">Twitter</a></li>
-                <li><img src="public/pictogramme/tiktok.svg"><a href="">TikTok</a></li>
-                <li><img src="public/pictogramme/instagram.svg"><a href="">Instagram</a></li>
-                <li><img src="public/pictogramme/linkedin.svg"><a href="">LinkedIn</a></li>
-            </ul>
-            <h1>Ou bien allez voir ceux de mon association</h1>
-            <img id="arrow" src="https://png.pngtree.com/png-vector/20220924/ourlarge/pngtree-arrow-up-flat-white-color-icon-arrow-north-upper-vector-png-image_19938710.jpg" alt="flèche vers le bas" width="80">
-        </div>
+
+<div id="contact">
+    <div>
+        <h4>Mes réseaux personnels</h4>
+        <ul>
+            <li><img src="public/pictogramme/twitter-x.svg"><a href="">Twitter</a></li>
+            <li><img src="public/pictogramme/tiktok.svg"><a href="">TikTok</a></li>
+            <li><img src="public/pictogramme/instagram.svg"><a href="">Instagram</a></li>
+            <li><img src="public/pictogramme/linkedin.svg"><a href="">LinkedIn</a></li>
+        </ul>
+        <h1>Ou bien allez voir ceux de mon association</h1>
+        <img id="arrow" src="https://png.pngtree.com/png-vector/20220924/ourlarge/pngtree-arrow-up-flat-white-color-icon-arrow-north-upper-vector-png-image_19938710.jpg" alt="flèche vers le bas" width="80">
     </div>
-</footer>
+</div>
